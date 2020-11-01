@@ -1,0 +1,33 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "pile:ratskin"
+    },
+    "1": {
+      "item": "pile:ratskin"
+    },
+    "2": {
+      "item": "pile:ratskin"
+    },
+    "3": {
+      "item": "pile:ratskin"
+    },
+    "5": {
+      "item": "pile:ratskin"
+    },
+    "7": {
+      "item": "pile:ratskin"
+    }
+  },
+  "result": {
+    "item": "pile:baseballcaprathelmet",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "pile:blocks/fijiwater",
+    "particle": "pile:blocks/fijiwater"
+  }
+}

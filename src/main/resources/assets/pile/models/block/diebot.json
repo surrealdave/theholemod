@@ -1,0 +1,9 @@
+{
+  "parent": "pile:custom/diebot",
+  "textures": {
+    "all": "pile:blocks/diebot",
+    "particle": "pile:blocks/diebot",
+    "diebot2": "pile:blocks/diebot2",
+    "diebot": "pile:blocks/diebot"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "realconcrete",
+    "name": "Music Disc",
+    "description": "Metalocrab Vs. The Iron Isopod - surreal dave",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "music": {
+      "value": "CUSTOM:pile.record.metalocrab"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

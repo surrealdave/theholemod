@@ -1,0 +1,24 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "condensed_milk_buclet",
+    "customModelName": "Normal",
+    "name": "Condensed Milk Bucket",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 2,
+    "saturation": 10.0,
+    "eatingSpeed": 20,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CondensedMilkBucketFoodEaten"
+    }
+  }
+}

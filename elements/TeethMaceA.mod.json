@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Crunchy Weapon",
+    "achievementDescription": "Craft a Mace of Teeth.",
+    "achievementIcon": {
+      "value": "CUSTOM:TeethMace"
+    },
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:TeethCornA"
+    },
+    "triggerxml": "<xml><block type=\"custom_trigger\" x=\"40\" y=\"80\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

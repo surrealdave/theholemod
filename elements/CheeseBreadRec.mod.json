@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "Items.BREAD"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CheeseBread"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "cheesebreadrec",
+    "namespace": "mod"
+  }
+}

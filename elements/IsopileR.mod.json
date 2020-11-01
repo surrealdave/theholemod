@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IsopodItem"
+      },
+      {
+        "value": "CUSTOM:IsopodItem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:IsopodItem"
+      },
+      {
+        "value": "CUSTOM:IsopodItem"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Isopile"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "isopiler",
+    "namespace": "mod"
+  }
+}

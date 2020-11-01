@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.STRING"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.FEATHER"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DreamCatcher"
+    },
+    "name": "dreamcatcherr",
+    "namespace": "mod"
+  }
+}

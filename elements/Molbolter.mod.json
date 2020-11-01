@@ -1,0 +1,44 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "molbolter",
+    "customModelName": "Normal",
+    "name": "Molbolter",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:Molbolt"
+    },
+    "shootConstantly": false,
+    "usageCount": 500,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.0,
+    "bulletDamage": 5.0,
+    "bulletKnockback": 10,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:Molbolt"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": "",
+    "onBulletHitsBlock": {
+      "name": "MolbolterBulletHitsBlock"
+    },
+    "onBulletHitsPlayer": {
+      "name": "MolbolterBulletHitsBlock"
+    },
+    "onBulletHitsEntity": {
+      "name": "MolbolterBulletHitsBlock"
+    }
+  }
+}

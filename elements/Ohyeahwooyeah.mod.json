@@ -1,0 +1,102 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "oh yeah woo yeah",
+    "mobLabel": "",
+    "mobModelTexture": "oh yeah woo yeah.png",
+    "mobModelName": "Modelohyeahwooyeah",
+    "modelWidth": 1.1,
+    "modelHeight": 1.9,
+    "modelShadowSize": 0.5,
+    "armorBaseValue": 0.0,
+    "hasSpawnEgg": false,
+    "spawnEggBaseColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -1,
+      "falpha": 0.0
+    },
+    "isBoss": true,
+    "bossBarColor": "WHITE",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Mob",
+    "mobCreatureType": "UNDEFINED",
+    "attackStrength": 24,
+    "movementSpeed": 0.4,
+    "trackingRange": 64,
+    "health": 300,
+    "xpAmount": 1207,
+    "waterMob": false,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": true,
+    "immuneToArrows": false,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": false,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": ""
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "game.neutral.hurt"
+    },
+    "deathSound": {
+      "value": "game.neutral.die"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"aitasks_container\" id=\"GEOymv)CO0F8uj=bUOJV\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"attack_action\" id=\"8G}%XL)zaDCjqh]+|CVe\"><field name=\"callhelp\">TRUE</field><next><block type=\"attack_entity\" id=\"g)^M.aMSlWOedAMukm%f\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayer</field><next><block type=\"attack_entity\" id=\"rdYET2UpaNiB_vJi6rEl\"><field name=\"insight\">FALSE</field><field name=\"nearby\">TRUE</field><field name=\"entity\">EntityPlayerMP</field><next><block type=\"attack_on_collide\" id=\"mSPD(76ir9?XTT`8,eum\"><field name=\"speed\">1.2</field><field name=\"longmemory\">TRUE</field><next><block type=\"wander\" id=\"l5PkEcrG$iYS%K|`r[7G\"><field name=\"speed\">0.5</field><next><block type=\"look_around\" id=\"y$*Tw32aK=);5o,?WMt-\"><next><block type=\"swim_in_water\" id=\"P=-(OOub5mO8;{OeK.pr\"></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": false,
+    "breedTriggerItems": [],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": false,
+    "doesDespawnWhenIdle": false,
+    "spawningProbability": 20,
+    "mobSpawningType": "monster",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 30,
+    "restrictionBiomes": [],
+    "spawnInDungeons": false
+  }
+}

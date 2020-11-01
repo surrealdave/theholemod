@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"event_trigger\" id=\"3-4xR~lgb|i8Slmee.oP\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"spawn_entity\" id=\"o7?16f]a6yy%/g5Jogo)\"><field name=\"entity\">CUSTOM:Wheelchair</field><value name=\"x\"><block type=\"coord_x\" id=\"6UI(Sk@JiA/GnsT8S70Q\"></block></value><value name=\"y\"><block type=\"math_dual_ops\" id=\"79img1LGw~NTNT1*jGqk\"><field name=\"OP\">ADD</field><value name=\"A\"><block type=\"coord_y\" id=\"bU@fqF`H4%n+uGSbefkb\"></block></value><value name=\"B\"><block type=\"math_number\" id=\":dQ?.tVew^$]-jVGf1!-\"><field name=\"NUM\">1</field></block></value></block></value><value name=\"z\"><block type=\"coord_z\" id=\"^Q0XX|/z!A3ITu[qrMjK\"></block></value><next><block type=\"entity_remove_item\" id=\"O,^ny8@5wP[b[xtWQ_dV\"><value name=\"amount\"><block type=\"math_number\" id=\"|*6/eT)M[rEm=IcmheY8\"><field name=\"NUM\">1</field></block></value><value name=\"item\"><block type=\"mcitem_all\" id=\"jGH|KR2Dc?Dp@mok+Lau\"><field name=\"value\">CUSTOM:WheelchairItem</field></block></value></block></next></block></next></block></xml>"
+  }
+}

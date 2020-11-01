@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "CUSTOM:EnrichedOctahedronCore"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "CUSTOM:OneHundredAndThreeTonWeight"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Coremine"
+    },
+    "name": "coreminer",
+    "namespace": "mod"
+  }
+}

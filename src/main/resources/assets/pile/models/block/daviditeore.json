@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/davidite_ore",
+    "up": "pile:blocks/davidite_ore",
+    "north": "pile:blocks/davidite_ore",
+    "east": "pile:blocks/davidite_ore",
+    "south": "pile:blocks/davidite_ore",
+    "west": "pile:blocks/davidite_ore",
+    "particle": "pile:blocks/davidite_ore"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:soochpod"
+    },
+    {
+      "item": "pile:onehundredandthreetonweight"
+    }
+  ],
+  "result": {
+    "item": "pile:sooch",
+    "count": 1
+  }
+}

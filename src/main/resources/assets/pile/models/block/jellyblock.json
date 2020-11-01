@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/jelly",
+    "up": "pile:blocks/jelly",
+    "north": "pile:blocks/jelly",
+    "east": "pile:blocks/jelly",
+    "south": "pile:blocks/jelly",
+    "west": "pile:blocks/jelly",
+    "particle": "pile:blocks/jelly"
+  }
+}

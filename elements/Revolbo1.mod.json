@@ -1,0 +1,35 @@
+{
+  "_fv": 6,
+  "_type": "gun",
+  "definition": {
+    "renderType": 0,
+    "texture": "308revolbo",
+    "customModelName": "Normal",
+    "name": ".308 Revolbo",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "stackSize": 1,
+    "ammoItem": {
+      "value": "CUSTOM:RevolboRound"
+    },
+    "shootConstantly": false,
+    "usageCount": 1500,
+    "actionSound": {
+      "value": "entity.blaze.shoot"
+    },
+    "hasGlow": false,
+    "enableMeleeDamage": false,
+    "damageVsEntity": 0.0,
+    "bulletPower": 2.5,
+    "bulletDamage": 1.0,
+    "bulletKnockback": 5,
+    "bulletParticles": true,
+    "bulletIgnitesFire": false,
+    "bulletItemTexture": {
+      "value": "CUSTOM:RevolboRound"
+    },
+    "bulletModel": "Default",
+    "customBulletModelTexture": ""
+  }
+}

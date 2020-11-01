@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:garlicrune3"
+    },
+    "facing=north": {
+      "model": "pile:garlicrune3"
+    },
+    "facing=east": {
+      "model": "pile:garlicrune3",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:garlicrune3",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:garlicrune3",
+      "y": 270
+    }
+  }
+}

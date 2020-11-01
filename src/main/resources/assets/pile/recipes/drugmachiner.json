@@ -1,0 +1,38 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "3": {
+      "item": "pile:syringe"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "5": {
+      "item": "pile:syringe"
+    },
+    "6": {
+      "item": "minecraft:stone",
+      "data": 0
+    },
+    "7": {
+      "item": "pile:cornteeth"
+    },
+    "8": {
+      "item": "minecraft:stone",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "pile:drugmachine",
+    "count": 1
+  }
+}

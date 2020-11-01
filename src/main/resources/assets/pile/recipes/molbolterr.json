@@ -1,0 +1,36 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "345",
+    "67 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:iron_ingot"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_bars"
+    },
+    "4": {
+      "item": "pile:enrichedoctahedroncore"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    },
+    "7": {
+      "item": "minecraft:leather"
+    }
+  },
+  "result": {
+    "item": "pile:molbolter",
+    "count": 1
+  }
+}

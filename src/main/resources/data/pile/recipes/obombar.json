@@ -1,0 +1,30 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "pile:obamium"
+    },
+    "3": {
+      "item": "pile:orbama"
+    },
+    "4": {
+      "item": "pile:unstableobamium"
+    },
+    "5": {
+      "item": "pile:orbama"
+    },
+    "7": {
+      "item": "pile:cubama"
+    }
+  },
+  "result": {
+    "item": "pile:obomba",
+    "count": 1
+  }
+}

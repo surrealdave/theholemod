@@ -1,0 +1,8 @@
+{
+  "parent": "pile:custom/moyai2",
+  "textures": {
+    "all": "pile:blocks/moyai",
+    "particle": "pile:blocks/moyai",
+    "moyai": "pile:blocks/moyai"
+  }
+}

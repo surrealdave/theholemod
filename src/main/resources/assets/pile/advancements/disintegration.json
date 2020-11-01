@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:disintegrationwand"
+    },
+    "title": {
+      "translate": "advancements.disintegration.title"
+    },
+    "description": {
+      "translate": "advancements.disintegration.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "disintegration": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

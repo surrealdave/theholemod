@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "pile:diebot"
+    },
+    "title": {
+      "translate": "advancements.holetime.title"
+    },
+    "description": {
+      "translate": "advancements.holetime.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "holetime": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  }
+}

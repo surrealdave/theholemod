@@ -1,0 +1,13 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:broglelog"
+    }
+  ],
+  "result": {
+    "item": "pile:brogleplanks",
+    "count": 4
+  }
+}

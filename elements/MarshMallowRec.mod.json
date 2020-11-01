@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.REDSTONE_BLOCK"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:Gorgonzola"
+      },
+      {
+        "value": "Items.SUGAR"
+      },
+      {
+        "value": "CUSTOM:CornKernel"
+      },
+      {
+        "value": "Items.WHEAT"
+      },
+      {
+        "value": "CUSTOM:CornKernel"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawMarshMallow"
+    },
+    "smeltingInputStack": {
+      "value": "CUSTOM:RawMarshMallow"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CookedMarshMallow"
+    },
+    "name": "marshmallowrec",
+    "namespace": "mod"
+  }
+}

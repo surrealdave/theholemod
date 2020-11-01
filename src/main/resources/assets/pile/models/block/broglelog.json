@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/brogletop",
+    "up": "pile:blocks/brogletop",
+    "north": "pile:blocks/broglelog",
+    "east": "pile:blocks/broglelog",
+    "south": "pile:blocks/broglelog",
+    "west": "pile:blocks/broglelog",
+    "particle": "pile:blocks/brogletop"
+  }
+}

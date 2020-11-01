@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/coremine",
+    "up": "pile:blocks/coremine",
+    "north": "pile:blocks/coreminefront",
+    "east": "pile:blocks/coremine",
+    "south": "pile:blocks/coreminefront",
+    "west": "pile:blocks/coremine",
+    "particle": "pile:blocks/coremine"
+  }
+}

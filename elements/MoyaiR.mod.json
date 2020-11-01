@@ -1,0 +1,50 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": "Items.ENDER_PEARL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": "Blocks.MOSSY_COBBLESTONE"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Moyai"
+    },
+    "smeltingInputStack": {
+      "value": ""
+    },
+    "smeltingReturnStack": {
+      "value": ""
+    },
+    "name": "moyair",
+    "namespace": "mod"
+  }
+}

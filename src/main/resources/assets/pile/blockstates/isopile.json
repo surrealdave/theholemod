@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "pile:isopile"
+    },
+    "age=1": {
+      "model": "pile:isopile"
+    },
+    "age=2": {
+      "model": "pile:isopile"
+    },
+    "age=3": {
+      "model": "pile:isopile"
+    },
+    "age=4": {
+      "model": "pile:isopile"
+    },
+    "age=5": {
+      "model": "pile:isopile"
+    },
+    "age=6": {
+      "model": "pile:isopile"
+    },
+    "age=7": {
+      "model": "pile:isopile"
+    },
+    "age=8": {
+      "model": "pile:isopile"
+    },
+    "age=9": {
+      "model": "pile:isopile"
+    },
+    "age=10": {
+      "model": "pile:isopile"
+    },
+    "age=11": {
+      "model": "pile:isopile"
+    },
+    "age=12": {
+      "model": "pile:isopile"
+    },
+    "age=13": {
+      "model": "pile:isopile"
+    },
+    "age=14": {
+      "model": "pile:isopile"
+    },
+    "age=15": {
+      "model": "pile:isopile"
+    }
+  }
+}

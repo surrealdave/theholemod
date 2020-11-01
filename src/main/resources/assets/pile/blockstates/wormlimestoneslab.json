@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "pile:wormlimestoneslab"
+    },
+    "half=top,variant=default": {
+      "model": "pile:wormlimestoneslab_top"
+    }
+  }
+}

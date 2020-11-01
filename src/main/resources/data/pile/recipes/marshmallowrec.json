@@ -1,0 +1,36 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "pile:gorgonzola"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "pile:cornkernel"
+    },
+    "7": {
+      "item": "minecraft:wheat"
+    },
+    "8": {
+      "item": "pile:cornkernel"
+    }
+  },
+  "result": {
+    "item": "pile:rawmarshmallow",
+    "count": 4
+  }
+}

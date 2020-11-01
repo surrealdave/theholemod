@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "Psychoactivity",
+    "effectName": "Psychoactivity",
+    "icon": "psychoactivity.png",
+    "color": {
+      "value": -65322,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": true,
+    "registerPotionType": false,
+    "curativeItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "PsychoactivityOnPotionActiveTick"
+    },
+    "onExpired": {
+      "name": "PsychoactivityPotionExpires"
+    }
+  }
+}

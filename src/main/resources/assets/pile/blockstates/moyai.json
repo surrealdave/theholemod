@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:moyai"
+    },
+    "facing=north": {
+      "model": "pile:moyai"
+    },
+    "facing=east": {
+      "model": "pile:moyai",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:moyai",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:moyai",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "pile:moyai",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "pile:moyai",
+      "x": 90
+    }
+  }
+}

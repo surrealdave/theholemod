@@ -1,0 +1,95 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "diebot",
+    "textureTop": "diebot",
+    "textureLeft": "diebot",
+    "textureFront": "diebot",
+    "textureRight": "diebot",
+    "textureBack": "diebot",
+    "renderType": 2,
+    "customModelName": "diebot:default",
+    "rotationMode": 1,
+    "hasTransparency": true,
+    "transparencyType": "TRANSLUCENT",
+    "mx": 0.1,
+    "my": 0.0,
+    "mz": 0.1,
+    "Mx": 0.9,
+    "My": 1.0,
+    "Mz": 0.9,
+    "faceShape": "SOLID",
+    "name": "Diebot",
+    "specialInfo": [],
+    "hardness": 0.6,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "GLASS"
+    },
+    "tickRate": 10,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "GLASS"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ENCHANTMENT_TABLE"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "DiebotGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onRightClicked": {
+      "name": "DiebotOnBlockRightclicked"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [
+      {
+        "value": "Blocks.STONE"
+      }
+    ],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 110
+  }
+}

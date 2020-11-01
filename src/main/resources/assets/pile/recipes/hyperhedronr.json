@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:octahedron"
+    },
+    "1": {
+      "item": "pile:chargedoctahedronflame"
+    },
+    "2": {
+      "item": "pile:octahedron"
+    },
+    "3": {
+      "item": "pile:chargedoctahedronenergy"
+    },
+    "4": {
+      "item": "minecraft:ender_pearl"
+    },
+    "5": {
+      "item": "pile:chargedoctahedronfrost"
+    },
+    "6": {
+      "item": "pile:octahedron"
+    },
+    "7": {
+      "item": "pile:chargedoctahedronprism"
+    },
+    "8": {
+      "item": "pile:octahedron"
+    }
+  },
+  "result": {
+    "item": "pile:hyperhedron",
+    "count": 1
+  }
+}

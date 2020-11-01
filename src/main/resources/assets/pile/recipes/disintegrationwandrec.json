@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:redstone_block"
+    },
+    "1": {
+      "item": "minecraft:tnt"
+    },
+    "2": {
+      "item": "minecraft:redstone_block"
+    },
+    "3": {
+      "item": "minecraft:tnt"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:tnt"
+    },
+    "6": {
+      "item": "minecraft:redstone_block"
+    },
+    "7": {
+      "item": "minecraft:tnt"
+    },
+    "8": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "pile:disintegrationwand",
+    "count": 1
+  }
+}

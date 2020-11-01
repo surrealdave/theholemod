@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "moldtotemON": "moldtotemsafe"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Octahedron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Octahedron"
+      },
+      {
+        "value": "Blocks.ICE"
+      },
+      {
+        "value": "CUSTOM:Octahedron"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Octahedron"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ChargedOctahedronFrost"
+    },
+    "name": "chargedoctahedronfrostr",
+    "namespace": "mod"
+  }
+}

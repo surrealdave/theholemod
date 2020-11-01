@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/gorgonzolablock3",
+    "up": "pile:blocks/gorgonzolablock3",
+    "north": "pile:blocks/gorgonzolablock3",
+    "east": "pile:blocks/gorgonzolablock3",
+    "south": "pile:blocks/gorgonzolablock3",
+    "west": "pile:blocks/gorgonzolablock3",
+    "particle": "pile:blocks/gorgonzolablock3"
+  }
+}

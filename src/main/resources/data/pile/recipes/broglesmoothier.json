@@ -1,0 +1,19 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:brogle"
+    },
+    {
+      "item": "pile:brogle"
+    },
+    {
+      "item": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "item": "pile:broglesmoothie",
+    "count": 1
+  }
+}

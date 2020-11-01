@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:cornteeth"
+    },
+    "1": {
+      "item": "minecraft:redstone_block"
+    },
+    "2": {
+      "item": "pile:cornteeth"
+    },
+    "3": {
+      "item": "pile:cornteeth"
+    },
+    "4": {
+      "item": "pile:corncube"
+    },
+    "5": {
+      "item": "pile:cornteeth"
+    },
+    "6": {
+      "item": "pile:cornteeth"
+    },
+    "7": {
+      "item": "minecraft:redstone_block"
+    },
+    "8": {
+      "item": "pile:cornteeth"
+    }
+  },
+  "result": {
+    "item": "pile:corncore",
+    "count": 1
+  }
+}

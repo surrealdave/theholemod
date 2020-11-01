@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:baseballcaprathelmet"
+    },
+    "title": {
+      "translate": "advancements.baseballcapa.title"
+    },
+    "description": {
+      "translate": "advancements.baseballcapa.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "baseballcapa": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:rats"
+}

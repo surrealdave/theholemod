@@ -1,0 +1,30 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:feather"
+    },
+    "3": {
+      "item": "minecraft:paper"
+    },
+    "4": {
+      "item": "pile:chargedoctahedronfrost"
+    },
+    "5": {
+      "item": "minecraft:paper"
+    },
+    "7": {
+      "item": "minecraft:ink_sac"
+    }
+  },
+  "result": {
+    "item": "pile:frostcantrip",
+    "count": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "1": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "2": {
+      "item": "minecraft:ender_pearl"
+    },
+    "3": {
+      "item": "minecraft:ender_pearl"
+    },
+    "4": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "5": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "result": {
+    "item": "pile:moyai",
+    "count": 1
+  }
+}

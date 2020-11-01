@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:pilehalf"
+    },
+    "facing=north": {
+      "model": "pile:pilehalf"
+    },
+    "facing=east": {
+      "model": "pile:pilehalf",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:pilehalf",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:pilehalf",
+      "y": 270
+    }
+  }
+}

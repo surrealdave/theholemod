@@ -1,0 +1,90 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 507,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Hello traveller...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Hello traveller...",
+          "x": 336,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Would you be interested in buying some fungus?",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Would you be interested in buying some fungus?",
+          "x": 192,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:Davecoin"
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 282,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Simply hand me some Davecoin...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "Simply hand me some Davecoin...",
+          "x": 282,
+          "y": 114
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "It will be worth it, I'm sure...",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "It will be worth it, I'm sure...",
+          "x": 282,
+          "y": 204
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Have a Fungus",
+          "onClick": {
+            "name": "TradeDealer"
+          },
+          "width": 260,
+          "height": 40,
+          "name": "Have a Fungus",
+          "x": 336,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

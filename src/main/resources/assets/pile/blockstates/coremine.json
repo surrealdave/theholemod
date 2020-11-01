@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:coremine"
+    },
+    "facing=north": {
+      "model": "pile:coremine"
+    },
+    "facing=east": {
+      "model": "pile:coremine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:coremine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:coremine",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "pile:coremine",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "pile:coremine",
+      "x": 90
+    }
+  }
+}

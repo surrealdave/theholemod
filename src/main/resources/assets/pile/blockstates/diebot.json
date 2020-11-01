@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:diebot"
+    },
+    "facing=north": {
+      "model": "pile:diebot"
+    },
+    "facing=east": {
+      "model": "pile:diebot",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:diebot",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:diebot",
+      "y": 270
+    }
+  }
+}

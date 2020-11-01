@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:yam"
+    },
+    "1": {
+      "item": "pile:yam"
+    },
+    "2": {
+      "item": "pile:yam"
+    },
+    "3": {
+      "item": "pile:yam"
+    },
+    "4": {
+      "item": "pile:yam"
+    },
+    "5": {
+      "item": "pile:yam"
+    },
+    "6": {
+      "item": "pile:yam"
+    },
+    "7": {
+      "item": "pile:yam"
+    },
+    "8": {
+      "item": "pile:yam"
+    }
+  },
+  "result": {
+    "item": "pile:yamblock",
+    "count": 1
+  }
+}

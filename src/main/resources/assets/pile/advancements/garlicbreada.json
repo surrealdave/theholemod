@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:garlicbread"
+    },
+    "title": {
+      "translate": "advancements.garlicbreada.title"
+    },
+    "description": {
+      "translate": "advancements.garlicbreada.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "garlicbreada": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:bread1"
+}

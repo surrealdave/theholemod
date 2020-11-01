@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:goblinflesh"
+    },
+    "title": {
+      "translate": "advancements.goblina.title"
+    },
+    "description": {
+      "translate": "advancements.goblina.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "goblina": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

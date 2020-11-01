@@ -1,0 +1,8 @@
+{
+  "parent": "pile:custom/grinder",
+  "textures": {
+    "all": "pile:blocks/grinderside",
+    "particle": "pile:blocks/grinderside",
+    "grinder": "pile:blocks/grinder"
+  }
+}

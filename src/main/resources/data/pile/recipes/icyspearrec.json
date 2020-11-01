@@ -1,0 +1,24 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  2",
+    " 4 ",
+    "6  "
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:ice"
+    },
+    "4": {
+      "item": "minecraft:leather"
+    },
+    "6": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "pile:icyspear",
+    "count": 1
+  }
+}

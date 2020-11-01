@@ -1,0 +1,56 @@
+{
+  "_fv": 6,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "portalParticles": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Yamic Rune",
+    "igniterTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "texture": "yamicrune",
+    "portalTexture": "yamportal",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:YamBiome"
+      }
+    ],
+    "worldGenType": "End like gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "secondaryFillerBlock": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "tertiaryFillerBlock": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "fluidBlock": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": false,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "DENY",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": false,
+    "dimensionMusic": {
+      "value": ""
+    }
+  }
+}

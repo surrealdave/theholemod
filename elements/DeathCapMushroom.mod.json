@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "deathcap",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 1,
+    "name": "Death Cap Mushroom",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "customDrop": {
+      "value": "CUSTOM:DeathCapMushroom"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "onDestroyedByPlayer": {
+      "name": "DeathCapMushroomMobplayerCollidesWithPlant"
+    },
+    "onEntityCollides": {
+      "name": "DeathCapMushroomMobplayerCollidesWithPlant"
+    }
+  }
+}

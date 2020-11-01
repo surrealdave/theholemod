@@ -1,0 +1,8 @@
+{
+  "parent": "pile:custom/pile1",
+  "textures": {
+    "all": "pile:blocks/pile",
+    "particle": "pile:blocks/pile",
+    "crabblock": "pile:blocks/crabblock"
+  }
+}

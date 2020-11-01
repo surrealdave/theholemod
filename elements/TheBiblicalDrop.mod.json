@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "biblicaldrop",
+    "name": "Music Disc",
+    "description": "The Biblical Drop - surreal dave",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "music": {
+      "value": "CUSTOM:pile.record.thebiblicaldrop"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

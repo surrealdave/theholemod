@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "pile:brogleplanksslab"
+    },
+    "half=top,variant=default": {
+      "model": "pile:brogleplanksslab_top"
+    }
+  }
+}

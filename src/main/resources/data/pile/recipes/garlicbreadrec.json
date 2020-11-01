@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:garlic"
+    },
+    "1": {
+      "item": "pile:garlic"
+    },
+    "2": {
+      "item": "pile:garlic"
+    },
+    "3": {
+      "item": "pile:garlic"
+    },
+    "4": {
+      "item": "pile:cheesebread"
+    },
+    "5": {
+      "item": "pile:garlic"
+    },
+    "6": {
+      "item": "pile:garlic"
+    },
+    "7": {
+      "item": "pile:garlic"
+    },
+    "8": {
+      "item": "pile:garlic"
+    }
+  },
+  "result": {
+    "item": "pile:garlicbread",
+    "count": 1
+  }
+}

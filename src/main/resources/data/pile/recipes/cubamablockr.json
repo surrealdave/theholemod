@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:cubama"
+    },
+    "1": {
+      "item": "pile:cubama"
+    },
+    "2": {
+      "item": "pile:cubama"
+    },
+    "3": {
+      "item": "pile:cubama"
+    },
+    "4": {
+      "item": "pile:cubama"
+    },
+    "5": {
+      "item": "pile:cubama"
+    },
+    "6": {
+      "item": "pile:cubama"
+    },
+    "7": {
+      "item": "pile:cubama"
+    },
+    "8": {
+      "item": "pile:cubama"
+    }
+  },
+  "result": {
+    "item": "pile:cubamablock",
+    "count": 1
+  }
+}

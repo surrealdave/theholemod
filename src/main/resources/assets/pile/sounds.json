@@ -1,0 +1,92 @@
+{
+  "pile.cockroach.living": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "pile:waaw",
+        "stream": false
+      }
+    ]
+  },
+  "pile.cockroach.hurt": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "pile:wawawawa wawww",
+        "stream": false
+      }
+    ]
+  },
+  "pile.cockroach.die": {
+    "category": "hostile",
+    "sounds": [
+      {
+        "name": "pile:wa wa wawww",
+        "stream": false
+      }
+    ]
+  },
+  "pile.record.gmistress": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:gmistress",
+        "stream": true
+      }
+    ]
+  },
+  "pile.record.killthemods": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:ktm",
+        "stream": true
+      }
+    ]
+  },
+  "pile.record.theylackthemoai": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:tltm",
+        "stream": true
+      }
+    ]
+  },
+  "pile.record.metalocrab": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:metalocrab",
+        "stream": true
+      }
+    ]
+  },
+  "pile.record.thebiblicaldrop": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:biblicaldrop",
+        "stream": true
+      }
+    ]
+  },
+  "pile.record.endanddeand": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:endanddeand",
+        "stream": true
+      }
+    ]
+  },
+  "pile.record.coldgold": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "pile:cold_gold",
+        "stream": true
+      }
+    ]
+  }
+}

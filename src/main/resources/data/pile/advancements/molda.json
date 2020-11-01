@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:blackmold"
+    },
+    "title": {
+      "translate": "advancements.molda.title"
+    },
+    "description": {
+      "translate": "advancements.molda.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "molda": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:baseballcapa"
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/obamiumoredreamland",
+    "up": "pile:blocks/obamiumoredreamland",
+    "north": "pile:blocks/obamiumoredreamland",
+    "east": "pile:blocks/obamiumoredreamland",
+    "south": "pile:blocks/obamiumoredreamland",
+    "west": "pile:blocks/obamiumoredreamland",
+    "particle": "pile:blocks/obamiumoredreamland"
+  }
+}

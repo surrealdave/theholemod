@@ -1,0 +1,44 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.GHAST_TEAR"
+      },
+      {
+        "value": "CUSTOM:DeathCapMushroom"
+      },
+      {
+        "value": "CUSTOM:RatSkin"
+      },
+      {
+        "value": "CUSTOM:FleshBlock"
+      },
+      {
+        "value": "Blocks.DRAGON_EGG"
+      },
+      {
+        "value": "CUSTOM:FleshBlock"
+      },
+      {
+        "value": "CUSTOM:FleshBlock"
+      },
+      {
+        "value": "CUSTOM:FleshBlock"
+      },
+      {
+        "value": "CUSTOM:FleshBlock"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BlackMold"
+    },
+    "name": "blackmoldrecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:wormlimestone"
+    },
+    "3": {
+      "item": "pile:wormlimestone"
+    },
+    "4": {
+      "item": "pile:wormlimestone"
+    },
+    "6": {
+      "item": "pile:wormlimestone"
+    },
+    "7": {
+      "item": "pile:wormlimestone"
+    },
+    "8": {
+      "item": "pile:wormlimestone"
+    }
+  },
+  "result": {
+    "item": "pile:wormlimestonestairs",
+    "count": 4
+  }
+}

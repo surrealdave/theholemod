@@ -1,0 +1,36 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:string"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "minecraft:string"
+    },
+    "4": {
+      "item": "minecraft:string"
+    },
+    "6": {
+      "item": "minecraft:feather"
+    },
+    "7": {
+      "item": "minecraft:feather"
+    },
+    "8": {
+      "item": "minecraft:feather"
+    }
+  },
+  "result": {
+    "item": "pile:dreamcatcher",
+    "count": 1
+  }
+}

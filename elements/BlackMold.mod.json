@@ -1,0 +1,103 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "blackmold",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Black Mold",
+    "specialInfo": [],
+    "hardness": 0.1,
+    "resistance": 0.1,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": true,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 255,
+    "material": {
+      "value": "SPONGE"
+    },
+    "tickRate": 5000,
+    "tickRandomly": false,
+    "isReplaceable": false,
+    "colorOnMap": "BLACK",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 100,
+    "fireSpreadSpeed": 100,
+    "isLadder": false,
+    "slipperiness": 1.0,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "SLIME"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "BlackMoldRandomTickUpdateEvent"
+    },
+    "onRandomUpdateEvent": {
+      "name": "BlackMoldRandomTickUpdateEvent"
+    },
+    "onEntityCollides": {
+      "name": "BlackMoldEntityCollidesInTheBlock"
+    },
+    "onEntityWalksOn": {
+      "name": "BlackMoldEntityCollidesInTheBlock"
+    },
+    "onBlockPlayedBy": {
+      "name": "BlackMoldBlockIsPlacedBy"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 1,
+    "frequencyOnChunk": 1,
+    "minGenerateHeight": 60,
+    "maxGenerateHeight": 65
+  }
+}

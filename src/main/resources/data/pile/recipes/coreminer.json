@@ -1,0 +1,39 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:davidite"
+    },
+    "1": {
+      "item": "pile:enrichedoctahedroncore"
+    },
+    "2": {
+      "item": "pile:davidite"
+    },
+    "3": {
+      "item": "pile:davidite"
+    },
+    "4": {
+      "item": "pile:onehundredandthreetonweight"
+    },
+    "5": {
+      "item": "pile:davidite"
+    },
+    "6": {
+      "item": "pile:davidite"
+    },
+    "8": {
+      "item": "pile:davidite"
+    }
+  },
+  "result": {
+    "item": "pile:coremine",
+    "count": 1
+  }
+}

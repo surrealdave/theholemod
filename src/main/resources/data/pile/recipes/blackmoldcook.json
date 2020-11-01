@@ -1,0 +1,11 @@
+{
+  "group": "pile",
+  "type": "minecraft:smelting",
+  "experience": 50,
+  "ingredient": {
+    "item": "pile:deadmold"
+  },
+  "result": {
+    "item": "pile:sterilemold"
+  }
+}

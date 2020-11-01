@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/corncube_top",
+    "up": "pile:blocks/corncube_top",
+    "north": "pile:blocks/corncube_side",
+    "east": "pile:blocks/corncube_side",
+    "south": "pile:blocks/corncube_side",
+    "west": "pile:blocks/corncube_side",
+    "particle": "pile:blocks/corncube_top"
+  }
+}

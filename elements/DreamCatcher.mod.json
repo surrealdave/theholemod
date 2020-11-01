@@ -1,0 +1,36 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "dream_catcher",
+    "customModelName": "Normal",
+    "name": "Dream Catcher",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "toolType": "Special",
+    "harvestLevel": 0,
+    "efficiency": 0.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 20,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.FEATHER"
+      },
+      {
+        "value": "Items.STICK"
+      }
+    ],
+    "onRightClickedInAir": {
+      "name": "DreamCatcherRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "DreamCatcherRightClickedOnBlock"
+    }
+  }
+}

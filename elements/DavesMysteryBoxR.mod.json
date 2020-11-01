@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:Octahedron"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      },
+      {
+        "value": "Blocks.LOG"
+      },
+      {
+        "value": "CUSTOM:Davidite"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:DavesMysteryBox"
+    },
+    "name": "davesmysteryboxr",
+    "namespace": "mod"
+  }
+}

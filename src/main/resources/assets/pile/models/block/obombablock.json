@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/obombablocktop",
+    "up": "pile:blocks/obombablocktop",
+    "north": "pile:blocks/obombablock",
+    "east": "pile:blocks/obombablock",
+    "south": "pile:blocks/obombablock",
+    "west": "pile:blocks/obombablock",
+    "particle": "pile:blocks/obombablocktop"
+  }
+}

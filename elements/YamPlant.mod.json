@@ -1,0 +1,35 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "yamplant",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Desert",
+    "growapableMaxHeight": 1,
+    "name": "Yam",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:Yam"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": []
+  }
+}

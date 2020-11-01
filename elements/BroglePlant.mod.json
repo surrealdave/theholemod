@@ -1,0 +1,46 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "brogle_block",
+    "customModelName": "Cross model",
+    "plantType": "normal",
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 1,
+    "name": "BrOgLE",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "customDrop": {
+      "value": "CUSTOM:Brogle"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 10,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:BrogleForest"
+      }
+    ],
+    "onDestroyedByPlayer": {
+      "name": "BroglePlantBlockDestroyedByPlayer"
+    }
+  }
+}

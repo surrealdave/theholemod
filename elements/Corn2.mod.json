@@ -1,0 +1,42 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "maize_3",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 1,
+    "name": "Corn",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "customDrop": {
+      "value": "CUSTOM:CornOnTheCob"
+    },
+    "dropAmount": 0,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 1,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "onDestroyedByPlayer": {
+      "name": "Corn2BlockDestroyedByPlayer"
+    }
+  }
+}

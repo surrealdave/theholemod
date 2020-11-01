@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:crabcake"
+    },
+    "title": {
+      "translate": "advancements.crabcakea.title"
+    },
+    "description": {
+      "translate": "advancements.crabcakea.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crabcakea": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:crabmeata"
+}

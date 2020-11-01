@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=bottom,variant=default": {
+      "model": "pile:chiseledgarlicrockslab"
+    },
+    "half=top,variant=default": {
+      "model": "pile:chiseledgarlicrockslab_top"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/mondaycarving3",
+    "up": "pile:blocks/mondaycarving3",
+    "north": "pile:blocks/mondaycarving3",
+    "east": "pile:blocks/mondaycarving3",
+    "south": "pile:blocks/mondaycarving3",
+    "west": "pile:blocks/mondaycarving3",
+    "particle": "pile:blocks/mondaycarving3"
+  }
+}

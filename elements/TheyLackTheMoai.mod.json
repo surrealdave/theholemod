@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "moai",
+    "name": "Music Disc",
+    "description": "They Lack The Moai - surreal dave",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "music": {
+      "value": "CUSTOM:pile.record.theylackthemoai"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

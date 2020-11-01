@@ -1,0 +1,30 @@
+{
+  "_fv": 6,
+  "_type": "structure",
+  "definition": {
+    "structure": "wormtemple",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [
+      {
+        "value": "Blocks.GRASS"
+      },
+      {
+        "value": "Blocks.DIRT#0"
+      }
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "plains"
+      }
+    ]
+  }
+}

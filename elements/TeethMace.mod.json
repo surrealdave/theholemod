@@ -1,0 +1,25 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "maceofteeth",
+    "customModelName": "Normal",
+    "name": "Mace of Teeth",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 1,
+    "efficiency": 1.0,
+    "attackSpeed": 2.8,
+    "enchantability": 20,
+    "damageVsEntity": 5.0,
+    "usageCount": 233,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "onCrafted": {
+      "name": "TeethMaceItemIsCraftedsmelted"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:crabitem"
+    },
+    "title": {
+      "translate": "advancements.crabmoment.title"
+    },
+    "description": {
+      "translate": "advancements.crabmoment.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crabmoment": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

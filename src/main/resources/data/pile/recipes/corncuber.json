@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:cornonthecob"
+    },
+    "1": {
+      "item": "pile:cornonthecob"
+    },
+    "2": {
+      "item": "pile:cornonthecob"
+    },
+    "3": {
+      "item": "pile:cornonthecob"
+    },
+    "4": {
+      "item": "pile:cornonthecob"
+    },
+    "5": {
+      "item": "pile:cornonthecob"
+    },
+    "6": {
+      "item": "pile:cornonthecob"
+    },
+    "7": {
+      "item": "pile:cornonthecob"
+    },
+    "8": {
+      "item": "pile:cornonthecob"
+    }
+  },
+  "result": {
+    "item": "pile:corncube",
+    "count": 1
+  }
+}

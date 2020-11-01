@@ -1,0 +1,36 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:glass"
+    },
+    "1": {
+      "item": "pile:magicdie"
+    },
+    "2": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "minecraft:glass"
+    },
+    "6": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "pile:diebot",
+    "count": 1
+  }
+}

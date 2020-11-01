@@ -1,0 +1,42 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "pile",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Beach",
+    "growapableMaxHeight": 14,
+    "name": "Pile",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "STONE"
+    },
+    "customDrop": {
+      "value": "CUSTOM:CrabItem"
+    },
+    "dropAmount": 2,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "PileMobplayerColidesBlock"
+    }
+  }
+}

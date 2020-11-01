@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:gorgonzola"
+    },
+    "title": {
+      "translate": "advancements.grog.title"
+    },
+    "description": {
+      "translate": "advancements.grog.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "grog": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

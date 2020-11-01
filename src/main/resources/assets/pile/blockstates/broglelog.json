@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:broglelog"
+    },
+    "facing=south": {
+      "model": "pile:broglelog"
+    },
+    "facing=north": {
+      "model": "pile:broglelog"
+    },
+    "facing=east": {
+      "model": "pile:broglelog",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "pile:broglelog",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "pile:broglelog",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "pile:broglelog",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

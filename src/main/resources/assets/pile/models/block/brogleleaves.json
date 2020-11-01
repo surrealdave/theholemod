@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/brogleleaves",
+    "up": "pile:blocks/brogleleaves",
+    "north": "pile:blocks/brogleleaves",
+    "east": "pile:blocks/brogleleaves",
+    "south": "pile:blocks/brogleleaves",
+    "west": "pile:blocks/brogleleaves",
+    "particle": "pile:blocks/brogleleaves"
+  }
+}

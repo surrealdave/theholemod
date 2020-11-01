@@ -1,0 +1,13 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:grapevine"
+    }
+  ],
+  "result": {
+    "item": "pile:grapes",
+    "count": 3
+  }
+}

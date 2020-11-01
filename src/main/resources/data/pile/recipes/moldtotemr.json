@@ -1,0 +1,30 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    " 4 ",
+    "678"
+  ],
+  "key": {
+    "1": {
+      "tag": "minecraft:slabs"
+    },
+    "4": {
+      "item": "pile:sterilemold"
+    },
+    "6": {
+      "item": "minecraft:oak_log"
+    },
+    "7": {
+      "item": "minecraft:oak_log"
+    },
+    "8": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "pile:moldtotem",
+    "count": 1
+  }
+}

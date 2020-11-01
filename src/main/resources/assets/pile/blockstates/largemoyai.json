@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:largemoyai"
+    },
+    "facing=north": {
+      "model": "pile:largemoyai"
+    },
+    "facing=east": {
+      "model": "pile:largemoyai",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:largemoyai",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:largemoyai",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "pile:largemoyai",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "pile:largemoyai",
+      "x": 90
+    }
+  }
+}

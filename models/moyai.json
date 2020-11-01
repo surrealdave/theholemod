@@ -1,0 +1,102 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "moyai": "minecraft:/moyai"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "base",
+            "from": [ 2, 0, 2 ], 
+            "to": [ 14, 20, 14 ], 
+            "faces": {
+                "north": { "texture": "#moyai", "uv": [ 0, 0, 12, 16 ] },
+                "east": { "texture": "#moyai", "uv": [ 0, 0, 12, 16 ] },
+                "south": { "texture": "#moyai", "uv": [ 0, 0, 12, 16 ] },
+                "west": { "texture": "#moyai", "uv": [ 0, 0, 12, 16 ] },
+                "up": { "texture": "#moyai", "uv": [ 0, 0, 12, 12 ] },
+                "down": { "texture": "#moyai", "uv": [ 0, 0, 12, 12 ] }
+            }
+        },
+        {
+            "name": "nose1",
+            "from": [ 4, 3, 1 ], 
+            "to": [ 12, 7, 2 ], 
+            "faces": {
+                "north": { "texture": "#moyai", "uv": [ 0, 0, 8, 4 ] },
+                "east": { "texture": "#moyai", "uv": [ 0, 0, 1, 4 ] },
+                "west": { "texture": "#moyai", "uv": [ 0, 0, 1, 4 ] },
+                "up": { "texture": "#moyai", "uv": [ 0, 0, 8, 1 ] },
+                "down": { "texture": "#moyai", "uv": [ 0, 0, 8, 1 ] }
+            }
+        },
+        {
+            "name": "nose2",
+            "from": [ 6, 7, 1.5 ], 
+            "to": [ 10, 15, 2.5 ], 
+            "faces": {
+                "north": { "texture": "#moyai", "uv": [ 0, 0, 4, 8 ] },
+                "east": { "texture": "#moyai", "uv": [ 0, 0, 1, 8 ] },
+                "west": { "texture": "#moyai", "uv": [ 0, 0, 1, 8 ] },
+                "up": { "texture": "#moyai", "uv": [ 0, 0, 4, 1 ] },
+                "down": { "texture": "#moyai", "uv": [ 0, 0, 4, 1 ] }
+            }
+        },
+        {
+            "name": "brow",
+            "from": [ 2, 16, 1 ], 
+            "to": [ 14, 19, 2 ], 
+            "faces": {
+                "north": { "texture": "#moyai", "uv": [ 0, 0, 12, 3 ] },
+                "east": { "texture": "#moyai", "uv": [ 0, 0, 1, 3 ] },
+                "west": { "texture": "#moyai", "uv": [ 0, 0, 1, 3 ] },
+                "up": { "texture": "#moyai", "uv": [ 0, 0, 12, 1 ] },
+                "down": { "texture": "#moyai", "uv": [ 0, 0, 12, 1 ] }
+            }
+        },
+        {
+            "name": "Cube",
+            "from": [ 1, 8, 5.5 ], 
+            "to": [ 15, 15, 10.5 ], 
+            "faces": {
+                "north": { "texture": "#moyai", "uv": [ 0, 0, 14, 7 ] },
+                "east": { "texture": "#moyai", "uv": [ 0, 0, 5, 7 ] },
+                "south": { "texture": "#moyai", "uv": [ 0, 0, 14, 7 ] },
+                "west": { "texture": "#moyai", "uv": [ 0, 0, 5, 7 ] },
+                "up": { "texture": "#moyai", "uv": [ 0, 0, 13, 6 ] },
+                "down": { "texture": "#moyai", "uv": [ 0, 0, 14, 5 ] }
+            }
+        }
+    ]
+}

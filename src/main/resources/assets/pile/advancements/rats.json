@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:ratskin"
+    },
+    "title": {
+      "translate": "advancements.rats.title"
+    },
+    "description": {
+      "translate": "advancements.rats.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rats": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

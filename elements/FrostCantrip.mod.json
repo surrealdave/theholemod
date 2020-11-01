@@ -1,0 +1,29 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "frostcantrip",
+    "customModelName": "Normal",
+    "name": "Frost Cantrip",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 4.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "FrostCantripMobIsHitWithTool"
+    },
+    "onItemInInventoryTick": {
+      "name": "FrostCantripToolInInventoryTick"
+    }
+  }
+}

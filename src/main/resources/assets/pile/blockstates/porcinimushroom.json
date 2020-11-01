@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=1": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=2": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=3": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=4": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=5": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=6": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=7": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=8": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=9": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=10": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=11": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=12": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=13": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=14": {
+      "model": "pile:porcinimushroom"
+    },
+    "age=15": {
+      "model": "pile:porcinimushroom"
+    }
+  }
+}

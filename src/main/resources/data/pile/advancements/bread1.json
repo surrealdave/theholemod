@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:cheesebread"
+    },
+    "title": {
+      "translate": "advancements.bread1.title"
+    },
+    "description": {
+      "translate": "advancements.bread1.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "bread1": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:grog"
+}

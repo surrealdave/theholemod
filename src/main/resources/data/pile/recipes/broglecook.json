@@ -1,0 +1,11 @@
+{
+  "group": "pile",
+  "type": "minecraft:smelting",
+  "experience": 0,
+  "ingredient": {
+    "item": "pile:brogle"
+  },
+  "result": {
+    "item": "pile:cookedbrogle"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/chiseledgarlicrock",
+    "up": "pile:blocks/chiseledgarlicrock",
+    "north": "pile:blocks/garlicrune5",
+    "east": "pile:blocks/garlicrock",
+    "south": "pile:blocks/garlicrock",
+    "west": "pile:blocks/garlicrock",
+    "particle": "pile:blocks/chiseledgarlicrock"
+  }
+}

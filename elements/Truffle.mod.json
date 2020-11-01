@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "truffle",
+    "customModelName": "Normal",
+    "name": "Truffle",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 0.30000001192092896,
+    "eatingSpeed": 32,
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

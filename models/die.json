@@ -1,0 +1,82 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "diebot2": "minecraft:/diebot2"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "die1",
+            "from": [ 5, 7, 5 ], 
+            "to": [ 11, 13, 11 ], 
+            "rotation": { "origin": [ 8.0, 10.0, 8.0 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "east": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "up": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "down": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] }
+            }
+        },
+        {
+            "name": "die2",
+            "from": [ 5, 7, 5 ], 
+            "to": [ 11, 13, 11 ], 
+            "rotation": { "origin": [ 8.0, 10.0, 8.0 ], "axis": "y", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "east": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "up": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "down": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] }
+            }
+        },
+        {
+            "name": "die3",
+            "from": [ 5, 7, 5 ], 
+            "to": [ 11, 13, 11 ], 
+            "rotation": { "origin": [ 8.0, 10.0, 8.0 ], "axis": "z", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "east": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "south": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "west": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "up": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] },
+                "down": { "texture": "#diebot2", "uv": [ 0, 0, 6, 6 ] }
+            }
+        }
+    ]
+}

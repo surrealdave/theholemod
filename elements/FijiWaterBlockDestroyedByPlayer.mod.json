@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"event_trigger\" id=\"f18=.QReC_7/S*;9w`nl\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"strike_lightning\" id=\"LMUP(*iePU:{L%44Ki^j\"><value name=\"x\"><block type=\"coord_x\" id=\"jW^odOEoQ1DaJp?HO,aA\"></block></value><value name=\"y\"><block type=\"coord_y\" id=\"-Inyy{RD(};ud]*-N--D\"></block></value><value name=\"z\"><block type=\"coord_z\" id=\"z;%EGl4M|LO+{*D@A-pB\"></block></value><next><block type=\"explode\" id=\"kV(7;:CaBL0%v8Sx-,RV\"><value name=\"x\"><block type=\"coord_x\" id=\"sW-TbNyZ!M,0R-v@{A`R\"></block></value><value name=\"y\"><block type=\"coord_y\" id=\"NISYP]LFauZRxEW;,MES\"></block></value><value name=\"z\"><block type=\"coord_z\" id=\";y)M4}Iy`xV*5f45yRZr\"></block></value><value name=\"power\"><block type=\"math_number\" id=\"7D(%JR6;pgrA.;NRK2I|\"><field name=\"NUM\">10</field></block></value></block></next></block></next></block></xml>"
+  }
+}

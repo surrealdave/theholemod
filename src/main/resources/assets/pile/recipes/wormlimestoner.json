@@ -1,0 +1,17 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:sandstone",
+      "data": 32767
+    },
+    {
+      "item": "pile:wormeye"
+    }
+  ],
+  "result": {
+    "item": "pile:wormlimestone",
+    "count": 1
+  }
+}

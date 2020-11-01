@@ -1,0 +1,46 @@
+{
+  "_fv": 6,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "baseballcapmadefromrealrats",
+    "enableBody": false,
+    "textureBody": "",
+    "enableLeggings": false,
+    "textureLeggings": "",
+    "enableBoots": false,
+    "textureBoots": "",
+    "onHelmetTick": {
+      "name": "BaseballCapRatHelmetTickEvent"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "armorTextureFile": "baseballcap_",
+    "helmetName": "Baseball cap made from real rats!",
+    "bodyName": "Baseball Cap Rat Body",
+    "leggingsName": "Baseball Cap Rat Leggings",
+    "bootsName": "Baseball Cap Rat Boots",
+    "helmetModelName": "ModelBaseballCap",
+    "helmetModelPart": "hat2",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "ModelBaseballCap",
+    "bodyModelPart": "hat1",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 10,
+    "damageValueHelmet": 1,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 40,
+    "toughness": 0.0
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"event_trigger\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">Something is crafted</field><next><block type=\"controls_if\"><value name=\"IF0\"><block type=\"compare_mcitems\"><value name=\"a\"><block type=\"itemstack_to_mcitem\"/></value><value name=\"b\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CheeseBread</field></block></value></block></value><statement name=\"DO0\"><block type=\"entity_add_achievement\"><field name=\"achievement\">CUSTOM:Bread1</field></block></statement></block></next></block></xml>"
+  }
+}

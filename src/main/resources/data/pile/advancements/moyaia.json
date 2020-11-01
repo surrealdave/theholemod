@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:moyai"
+    },
+    "title": {
+      "translate": "advancements.moyaia.title"
+    },
+    "description": {
+      "translate": "advancements.moyaia.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "moyaia": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "pile:wormlimestoneslab_double"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/psydirt",
+    "up": "pile:blocks/psydirt",
+    "north": "pile:blocks/psydirt",
+    "east": "pile:blocks/psydirt",
+    "south": "pile:blocks/psydirt",
+    "west": "pile:blocks/psydirt",
+    "particle": "pile:blocks/psydirt"
+  }
+}

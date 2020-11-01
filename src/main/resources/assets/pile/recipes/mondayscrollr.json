@@ -1,0 +1,22 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:ancientknowledge"
+    },
+    {
+      "item": "pile:ancientknowledge"
+    },
+    {
+      "item": "pile:ancientknowledge"
+    },
+    {
+      "item": "pile:ancientknowledge"
+    }
+  ],
+  "result": {
+    "item": "pile:mondayscroll",
+    "count": 1
+  }
+}

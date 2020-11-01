@@ -1,0 +1,91 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "dreamsprout",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
+    "hasTransparency": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "mx": 0.8,
+    "my": 0.0,
+    "mz": 0.8,
+    "Mx": 0.2,
+    "My": 1.0,
+    "Mz": 0.2,
+    "faceShape": "CENTER_SMALL",
+    "name": "Dream Sprout",
+    "specialInfo": [],
+    "hardness": 0.0,
+    "resistance": 0.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "destroyTool": "Not specified",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": "CUSTOM:DreamFruit"
+    },
+    "dropAmount": 1,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "PLANTS"
+    },
+    "tickRate": 10,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": true,
+    "slipperiness": 0.6,
+    "reactionToPushing": "NORMAL",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "PLANT"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 0,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "SPELL_MOB"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.1,
+    "particleAmount": 1,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onNeighbourBlockChanges": {
+      "name": "DreamSproutNeighbourBlockChanges"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

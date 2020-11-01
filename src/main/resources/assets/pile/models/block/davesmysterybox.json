@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/daves_mystery_box",
+    "up": "pile:blocks/daves_mystery_box",
+    "north": "pile:blocks/daves_mystery_box",
+    "east": "pile:blocks/daves_mystery_box",
+    "south": "pile:blocks/daves_mystery_box",
+    "west": "pile:blocks/daves_mystery_box",
+    "particle": "pile:blocks/daves_mystery_box"
+  }
+}

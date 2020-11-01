@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:crabmeat"
+    },
+    "title": {
+      "translate": "advancements.crabmeata.title"
+    },
+    "description": {
+      "translate": "advancements.crabmeata.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "crabmeata": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:crabmoment"
+}

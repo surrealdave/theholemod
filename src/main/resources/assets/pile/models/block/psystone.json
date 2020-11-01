@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/psystone3",
+    "up": "pile:blocks/psystone3",
+    "north": "pile:blocks/psystone3",
+    "east": "pile:blocks/psystone3",
+    "south": "pile:blocks/psystone3",
+    "west": "pile:blocks/psystone3",
+    "particle": "pile:blocks/psystone3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:chiseledgarlicrock"
+    },
+    "1": {
+      "item": "pile:chiseledgarlicrock"
+    },
+    "2": {
+      "item": "pile:chiseledgarlicrock"
+    }
+  },
+  "result": {
+    "item": "pile:chiseledgarlicrockslab",
+    "count": 4
+  }
+}

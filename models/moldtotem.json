@@ -1,0 +1,119 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "moldtotemON": "minecraft:/moldtotemON"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 30, 45, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 0.625, 0.625, 0.625 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 3, 0 ],
+            "scale": [ 0.25, 0.25, 0.25 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "head": {
+            "rotation": [ 0, 180, 0 ],
+            "translation": [ 0, 0, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 0, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.4, 0.4, 0.4 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 75, 315, 0 ],
+            "translation": [ 0, 2.5, 0 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "base1",
+            "from": [ 1, 0, 1 ], 
+            "to": [ 15, 1, 15 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "east": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "west": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "up": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 7 ] },
+                "down": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 7 ] }
+            }
+        },
+        {
+            "name": "totemmain",
+            "from": [ 4, 3, 4 ], 
+            "to": [ 12, 23, 12 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 0, 0, 4, 10 ] },
+                "east": { "texture": "#moldtotemON", "uv": [ 0, 0, 4, 10 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 0, 0, 4, 10 ] },
+                "west": { "texture": "#moldtotemON", "uv": [ 0, 0, 4, 10 ] }
+            }
+        },
+        {
+            "name": "totemhead",
+            "from": [ 3.5, 23, 3.5 ], 
+            "to": [ 12.5, 32, 12.5 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 11.5, 11.5, 16, 16 ] },
+                "east": { "texture": "#moldtotemON", "uv": [ 7, 11.5, 11.5, 16 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 11.5, 7, 16, 11.5 ] },
+                "west": { "texture": "#moldtotemON", "uv": [ 7, 11.5, 11.5, 16 ] },
+                "up": { "texture": "#moldtotemON", "uv": [ 11.5, 7, 16, 11.5 ] },
+                "down": { "texture": "#moldtotemON", "uv": [ 11.5, 7, 16, 11.5 ] }
+            }
+        },
+        {
+            "name": "totemear1",
+            "from": [ -1.5, 26, 8 ], 
+            "to": [ 3.5, 31, 8 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 13, 0, 16, 3 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 11, 0, 14, 3 ] }
+            }
+        },
+        {
+            "name": "totemear2",
+            "from": [ 12.5, 26, 8 ], 
+            "to": [ 17.5, 31, 8 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 11, 0, 14, 3 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 13, 0, 16, 3 ] }
+            }
+        },
+        {
+            "name": "base2",
+            "from": [ 2, 1, 2 ], 
+            "to": [ 14, 2, 14 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "east": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "west": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "up": { "texture": "#moldtotemON", "uv": [ 4.5, 0.5, 10.5, 6.5 ] }
+            }
+        },
+        {
+            "name": "base3",
+            "from": [ 3, 2, 3 ], 
+            "to": [ 13, 3, 13 ], 
+            "faces": {
+                "north": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "east": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "south": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "west": { "texture": "#moldtotemON", "uv": [ 4, 0, 11, 0.5 ] },
+                "up": { "texture": "#moldtotemON", "uv": [ 5, 1, 10, 6 ] }
+            }
+        }
+    ]
+}

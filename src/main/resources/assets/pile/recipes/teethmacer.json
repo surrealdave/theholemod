@@ -1,0 +1,30 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 12",
+    " 45",
+    "6  "
+  ],
+  "key": {
+    "1": {
+      "item": "pile:cornteeth"
+    },
+    "2": {
+      "item": "pile:cornteeth"
+    },
+    "4": {
+      "item": "minecraft:iron_ingot"
+    },
+    "5": {
+      "item": "pile:cornteeth"
+    },
+    "6": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "pile:teethmace",
+    "count": 1
+  }
+}

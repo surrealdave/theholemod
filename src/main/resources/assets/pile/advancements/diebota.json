@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:magicdie"
+    },
+    "title": {
+      "translate": "advancements.diebota.title"
+    },
+    "description": {
+      "translate": "advancements.diebota.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "diebota": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

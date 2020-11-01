@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:corncube"
+    },
+    "facing=south": {
+      "model": "pile:corncube"
+    },
+    "facing=north": {
+      "model": "pile:corncube"
+    },
+    "facing=east": {
+      "model": "pile:corncube",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "pile:corncube",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "pile:corncube",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "pile:corncube",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

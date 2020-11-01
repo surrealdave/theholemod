@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:corncube"
+    },
+    "title": {
+      "translate": "advancements.corncubea.title"
+    },
+    "description": {
+      "translate": "advancements.corncubea.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "corncubea": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:holetime"
+}

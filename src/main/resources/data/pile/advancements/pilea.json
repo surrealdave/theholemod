@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:pile"
+    },
+    "title": {
+      "translate": "advancements.pilea.title"
+    },
+    "description": {
+      "translate": "advancements.pilea.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pilea": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:crabmoment"
+}

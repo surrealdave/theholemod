@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SmoothMondaystone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SmoothMondaystone"
+      },
+      {
+        "value": "CUSTOM:SmoothMondaystone"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SmoothMondaystone"
+      },
+      {
+        "value": "CUSTOM:SmoothMondaystone"
+      },
+      {
+        "value": "CUSTOM:SmoothMondaystone"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SmoothMondaystoneStairs"
+    },
+    "name": "smoothmondaystairsr",
+    "namespace": "mod"
+  }
+}

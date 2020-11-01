@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"event_trigger\" id=\"KwZ0FNUCR}N:XVPZ}{04\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"block_add\" id=\"W?rzRT?_lH!n/u}YlSr3\"><value name=\"block\"><block type=\"mcitem_allblocks\" id=\"XP|63nl`-lh2W.O(}sZ:\"><field name=\"value\">CUSTOM:LargeMoyai</field></block></value><value name=\"x\"><block type=\"coord_x\" id=\"O[MFeE3GB]exjPF;|qH8\"></block></value><value name=\"y\"><block type=\"math_dual_ops\" id=\"rpT`,kn{LH5cdUFTY+Fa\"><field name=\"OP\">ADD</field><value name=\"A\"><block type=\"coord_y\" id=\"yrXhUeihc!F/VZ;YNH+Z\"></block></value><value name=\"B\"><block type=\"math_number\" id=\"!io/o.2{K:%Jy6KNy5@=\"><field name=\"NUM\">1</field></block></value></block></value><value name=\"z\"><block type=\"coord_z\" id=\")O%BBx|bg7pz?blqR`XC\"></block></value></block></next></block></xml>"
+  }
+}

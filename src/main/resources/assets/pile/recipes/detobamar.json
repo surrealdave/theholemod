@@ -1,0 +1,27 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1",
+    "23",
+    " 5"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:stone_button"
+    },
+    "3": {
+      "item": "pile:obamium"
+    },
+    "5": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "pile:detobama",
+    "count": 1
+  }
+}

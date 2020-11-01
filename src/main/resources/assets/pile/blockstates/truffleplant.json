@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "pile:truffleplant"
+    },
+    "age=1": {
+      "model": "pile:truffleplant"
+    },
+    "age=2": {
+      "model": "pile:truffleplant"
+    },
+    "age=3": {
+      "model": "pile:truffleplant"
+    },
+    "age=4": {
+      "model": "pile:truffleplant"
+    },
+    "age=5": {
+      "model": "pile:truffleplant"
+    },
+    "age=6": {
+      "model": "pile:truffleplant"
+    },
+    "age=7": {
+      "model": "pile:truffleplant"
+    },
+    "age=8": {
+      "model": "pile:truffleplant"
+    },
+    "age=9": {
+      "model": "pile:truffleplant"
+    },
+    "age=10": {
+      "model": "pile:truffleplant"
+    },
+    "age=11": {
+      "model": "pile:truffleplant"
+    },
+    "age=12": {
+      "model": "pile:truffleplant"
+    },
+    "age=13": {
+      "model": "pile:truffleplant"
+    },
+    "age=14": {
+      "model": "pile:truffleplant"
+    },
+    "age=15": {
+      "model": "pile:truffleplant"
+    }
+  }
+}

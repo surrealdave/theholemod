@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "variant=default": {
+      "model": "pile:brogleplanksslab_double"
+    }
+  }
+}

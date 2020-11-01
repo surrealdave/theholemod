@@ -1,0 +1,31 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:chiseledmondaystone2"
+    },
+    "facing=south": {
+      "model": "pile:chiseledmondaystone2"
+    },
+    "facing=north": {
+      "model": "pile:chiseledmondaystone2"
+    },
+    "facing=east": {
+      "model": "pile:chiseledmondaystone2",
+      "x": 90
+    },
+    "facing=west": {
+      "model": "pile:chiseledmondaystone2",
+      "x": 90
+    },
+    "facing=up": {
+      "model": "pile:chiseledmondaystone2",
+      "x": 90,
+      "y": 90
+    },
+    "facing=down": {
+      "model": "pile:chiseledmondaystone2",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:fallenmeteoritem"
+    },
+    "1": {
+      "item": "pile:fallenmeteoritem"
+    },
+    "2": {
+      "item": "pile:fallenmeteoritem"
+    },
+    "3": {
+      "item": "minecraft:bookshelf"
+    },
+    "4": {
+      "item": "pile:corncore"
+    },
+    "5": {
+      "item": "minecraft:bookshelf"
+    },
+    "6": {
+      "item": "minecraft:bookshelf"
+    },
+    "7": {
+      "item": "pile:corncore"
+    },
+    "8": {
+      "item": "minecraft:bookshelf"
+    }
+  },
+  "result": {
+    "item": "pile:decrypter",
+    "count": 1
+  }
+}

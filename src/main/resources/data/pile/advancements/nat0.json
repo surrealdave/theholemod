@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:diebot"
+    },
+    "title": {
+      "translate": "advancements.nat0.title"
+    },
+    "description": {
+      "translate": "advancements.nat0.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "nat0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:diebota"
+}

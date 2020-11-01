@@ -1,0 +1,22 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:isopoditem"
+    },
+    {
+      "item": "pile:isopoditem"
+    },
+    {
+      "item": "pile:isopoditem"
+    },
+    {
+      "item": "pile:isopoditem"
+    }
+  ],
+  "result": {
+    "item": "pile:isopile",
+    "count": 1
+  }
+}

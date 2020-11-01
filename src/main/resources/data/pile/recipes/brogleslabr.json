@@ -1,0 +1,22 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:brogleplanks"
+    },
+    "1": {
+      "item": "pile:brogleplanks"
+    },
+    "2": {
+      "item": "pile:brogleplanks"
+    }
+  },
+  "result": {
+    "item": "pile:brogleplanksslab",
+    "count": 6
+  }
+}

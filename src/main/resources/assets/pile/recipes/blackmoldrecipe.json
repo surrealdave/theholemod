@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:ghast_tear"
+    },
+    "1": {
+      "item": "pile:deathcapmushroom"
+    },
+    "2": {
+      "item": "pile:ratskin"
+    },
+    "3": {
+      "item": "pile:fleshblock"
+    },
+    "4": {
+      "item": "minecraft:dragon_egg"
+    },
+    "5": {
+      "item": "pile:fleshblock"
+    },
+    "6": {
+      "item": "pile:fleshblock"
+    },
+    "7": {
+      "item": "pile:fleshblock"
+    },
+    "8": {
+      "item": "pile:fleshblock"
+    }
+  },
+  "result": {
+    "item": "pile:blackmold",
+    "count": 1
+  }
+}

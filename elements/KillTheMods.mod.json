@@ -1,0 +1,17 @@
+{
+  "_fv": 6,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "killthemods",
+    "name": "Music Disc",
+    "description": "Kill The Mods - surreal dave",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "music": {
+      "value": "CUSTOM:pile.record.killthemods"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

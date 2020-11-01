@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/glowingmondayrock",
+    "up": "pile:blocks/glowingmondayrock",
+    "north": "pile:blocks/glowingmondayrock",
+    "east": "pile:blocks/glowingmondayrock",
+    "south": "pile:blocks/glowingmondayrock",
+    "west": "pile:blocks/glowingmondayrock",
+    "particle": "pile:blocks/glowingmondayrock"
+  }
+}

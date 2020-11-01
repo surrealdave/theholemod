@@ -1,0 +1,25 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:garlicrune4"
+    },
+    {
+      "item": "pile:garlicrune5"
+    },
+    {
+      "item": "pile:garlicrune1"
+    },
+    {
+      "item": "pile:garlicrune2"
+    },
+    {
+      "item": "pile:garlicrune3"
+    }
+  ],
+  "result": {
+    "item": "pile:garlic",
+    "count": 4
+  }
+}

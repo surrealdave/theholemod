@@ -1,0 +1,13 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:octahedronblock"
+    }
+  ],
+  "result": {
+    "item": "pile:octahedron",
+    "count": 9
+  }
+}

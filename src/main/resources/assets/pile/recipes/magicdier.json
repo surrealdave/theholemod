@@ -1,0 +1,46 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:garlic"
+    },
+    "1": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "2": {
+      "item": "pile:garlic"
+    },
+    "3": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "6": {
+      "item": "pile:garlic"
+    },
+    "7": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "8": {
+      "item": "pile:garlic"
+    }
+  },
+  "result": {
+    "item": "pile:magicdie",
+    "count": 4
+  }
+}

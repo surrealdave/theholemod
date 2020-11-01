@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/yamblock",
+    "up": "pile:blocks/yamblock",
+    "north": "pile:blocks/yamblock",
+    "east": "pile:blocks/yamblock",
+    "south": "pile:blocks/yamblock",
+    "west": "pile:blocks/yamblock",
+    "particle": "pile:blocks/yamblock"
+  }
+}

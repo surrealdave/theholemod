@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "pile:blocks/maize_1",
+    "particle": "pile:blocks/maize_1"
+  }
+}

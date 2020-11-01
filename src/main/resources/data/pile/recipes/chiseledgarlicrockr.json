@@ -1,0 +1,26 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:garlicrock"
+    },
+    "1": {
+      "item": "pile:garlicrock"
+    },
+    "2": {
+      "item": "pile:garlicrock"
+    },
+    "3": {
+      "item": "pile:garlicrock"
+    }
+  },
+  "result": {
+    "item": "pile:chiseledgarlicrock",
+    "count": 4
+  }
+}

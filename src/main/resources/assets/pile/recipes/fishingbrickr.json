@@ -1,0 +1,16 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:fishing_rod"
+    }
+  ],
+  "result": {
+    "item": "pile:fishingbrick",
+    "count": 1
+  }
+}

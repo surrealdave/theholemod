@@ -1,0 +1,22 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:wormlimestone"
+    },
+    "1": {
+      "item": "pile:wormlimestone"
+    },
+    "2": {
+      "item": "pile:wormlimestone"
+    }
+  },
+  "result": {
+    "item": "pile:wormlimestoneslab",
+    "count": 3
+  }
+}

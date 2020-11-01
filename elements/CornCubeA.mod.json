@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Corn Cube",
+    "achievementDescription": "It's a Cube of Corn.",
+    "achievementIcon": {
+      "value": "CUSTOM:CornCube"
+    },
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:HoleTime"
+    },
+    "triggerxml": "<xml><block type=\"custom_trigger\" x=\"40\" y=\"80\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

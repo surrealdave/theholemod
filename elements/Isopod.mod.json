@@ -1,0 +1,122 @@
+{
+  "_fv": 6,
+  "_type": "mob",
+  "definition": {
+    "mobName": "Isopod",
+    "mobLabel": "",
+    "mobModelTexture": "isopod.png",
+    "mobModelName": "ModelIsopod",
+    "modelWidth": 0.6,
+    "modelHeight": 0.3,
+    "modelShadowSize": 0.4,
+    "armorBaseValue": 0.0,
+    "hasSpawnEgg": true,
+    "spawnEggBaseColor": {
+      "value": -13108,
+      "falpha": 0.0
+    },
+    "spawnEggDotColor": {
+      "value": -992293,
+      "falpha": 0.0
+    },
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "isBoss": false,
+    "bossBarColor": "PINK",
+    "bossBarType": "PROGRESS",
+    "equipmentMainHand": {
+      "value": ""
+    },
+    "equipmentOffHand": {
+      "value": ""
+    },
+    "equipmentHelmet": {
+      "value": ""
+    },
+    "equipmentBody": {
+      "value": ""
+    },
+    "equipmentLeggings": {
+      "value": ""
+    },
+    "equipmentBoots": {
+      "value": ""
+    },
+    "mobBehaviourType": "Creature",
+    "mobCreatureType": "ARTHROPOD",
+    "attackStrength": 2,
+    "movementSpeed": 0.1,
+    "trackingRange": 64,
+    "health": 10,
+    "xpAmount": 5,
+    "waterMob": true,
+    "flyingMob": false,
+    "disableCollisions": false,
+    "ridable": false,
+    "canControlForward": false,
+    "canControlStrafe": false,
+    "immuneToFire": false,
+    "immuneToArrows": true,
+    "immuneToFallDamage": false,
+    "immuneToCactus": false,
+    "immuneToDrowning": true,
+    "immuneToLightning": false,
+    "immuneToPotions": false,
+    "immuneToPlayer": false,
+    "mobDrop": {
+      "value": "CUSTOM:IsopodItem"
+    },
+    "livingSound": {
+      "value": ""
+    },
+    "hurtSound": {
+      "value": "game.neutral.hurt"
+    },
+    "deathSound": {
+      "value": "game.neutral.die"
+    },
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasAI": true,
+    "aiBase": "(none)",
+    "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"><next><block type=\"swim_in_water\"><next><block type=\"wander\"><field name=\"speed\">1</field><next><block type=\"look_around\"><next><block type=\"panic_when_attacked\"><field name=\"speed\">1.2</field></block></next></block></next></block></next></block></next></block></xml>",
+    "breedable": true,
+    "breedTriggerItems": [
+      {
+        "value": "CUSTOM:Brogle"
+      },
+      {
+        "value": "CUSTOM:CookedBrogle"
+      },
+      {
+        "value": "CUSTOM:Yam"
+      }
+    ],
+    "ranged": false,
+    "rangedAttackItem": {
+      "value": ""
+    },
+    "spawnThisMob": true,
+    "doesDespawnWhenIdle": true,
+    "spawningProbability": 8,
+    "mobSpawningType": "waterCreature",
+    "minNumberOfMobsPerGroup": 3,
+    "maxNumberOfMobsPerGroup": 5,
+    "restrictionBiomes": [
+      {
+        "value": "ocean"
+      },
+      {
+        "value": "deep_ocean"
+      }
+    ],
+    "spawnInDungeons": false
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 6,
+  "_type": "potion",
+  "definition": {
+    "name": "",
+    "effectName": "Molbo Poison",
+    "icon": "molboeffect.png",
+    "color": {
+      "value": -26113,
+      "falpha": 0.0
+    },
+    "isInstant": false,
+    "isBad": true,
+    "isBenefitical": false,
+    "registerPotionType": false,
+    "curativeItems": [
+      {
+        "value": "Items.MILK_BUCKET"
+      }
+    ],
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onActiveTick": {
+      "name": "MolboEffectOnPotionActiveTick"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "pile:custom/chiseledgarlic",
+  "textures": {
+    "all": "pile:blocks/chiseledgarlicrock",
+    "particle": "pile:blocks/chiseledgarlicrock",
+    "chiseledgarlicrock": "pile:blocks/chiseledgarlicrock"
+  }
+}

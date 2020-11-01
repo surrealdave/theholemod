@@ -1,0 +1,94 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "pile",
+    "textureTop": "pile",
+    "textureLeft": "pile",
+    "textureFront": "pile",
+    "textureRight": "pile",
+    "textureBack": "pile",
+    "renderType": 2,
+    "customModelName": "pile2:default",
+    "rotationMode": 1,
+    "hasTransparency": true,
+    "transparencyType": "CUTOUT",
+    "mx": 0.1,
+    "my": 0.0,
+    "mz": 0.1,
+    "Mx": 0.9,
+    "My": 1.0,
+    "Mz": 0.9,
+    "faceShape": "SOLID",
+    "name": "Pile",
+    "specialInfo": [],
+    "hardness": 2.0,
+    "resistance": 10.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": "CUSTOM:CrabItem"
+    },
+    "dropAmount": 2,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": false,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "ROCK"
+    },
+    "tickRate": 1000,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": true,
+    "slipperiness": 0.6,
+    "reactionToPushing": "DESTROY",
+    "isNotColidable": true,
+    "soundOnStep": {
+      "value": "STONE"
+    },
+    "luminance": 0.0,
+    "unbreakable": false,
+    "breakHarvestLevel": -1,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onNeighbourBlockChanges": {
+      "name": "PileBlockNeighbourBlockChanges"
+    },
+    "onTickUpdate": {
+      "name": "PileUpdateTick"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 10,
+    "maxGenerateHeight": 110
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "pile:blocks/brogle_block",
+    "particle": "pile:blocks/brogle_block"
+  }
+}

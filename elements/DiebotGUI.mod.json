@@ -1,0 +1,173 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "D I E B O T",
+          "color": {
+            "value": -16777216,
+            "falpha": 0.0
+          },
+          "name": "D I E B O T",
+          "x": 264,
+          "y": 78
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Communicator Industries",
+          "color": {
+            "value": -6710887,
+            "falpha": 0.0
+          },
+          "name": "Communicator Industries",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Warning: Do not roll a 1 or 0.",
+          "color": {
+            "value": -3355444,
+            "falpha": 0.0
+          },
+          "name": "Warning: Do not roll a 1 or 0.",
+          "x": 264,
+          "y": 374
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Die Result:",
+          "color": {
+            "value": -13421773,
+            "falpha": 0.0
+          },
+          "name": "Die Result:",
+          "x": 444,
+          "y": 312
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+ Side",
+          "onClick": {
+            "name": "DieSideInc"
+          },
+          "width": 112,
+          "height": 40,
+          "name": "+ Side",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "- Side",
+          "onClick": {
+            "name": "DieSideDec"
+          },
+          "width": 112,
+          "height": 40,
+          "name": "- Side",
+          "x": 372,
+          "y": 168
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "+ Dice",
+          "onClick": {
+            "name": "DieCountInc"
+          },
+          "width": 112,
+          "height": 40,
+          "name": "+ Dice",
+          "x": 264,
+          "y": 240
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "- Dice",
+          "onClick": {
+            "name": "DieCountDec"
+          },
+          "width": 112,
+          "height": 40,
+          "name": "- Dice",
+          "x": 372,
+          "y": 240
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Roll Dice",
+          "onClick": {
+            "name": "DieRoll"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Roll Dice",
+          "x": 264,
+          "y": 312
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:DieCount>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:DieCount>",
+          "x": 498,
+          "y": 240
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:SideCount>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:SideCount>",
+          "x": 498,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:DieResult>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:DieResult>",
+          "x": 444,
+          "y": 330
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "pile:yamdimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "pile:yamdimension_portal_ns"
+    },
+    "inventory": {
+      "model": "pile:yamdimension_portal_ns"
+    }
+  }
+}

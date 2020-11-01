@@ -1,0 +1,32 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "ray_of_yes",
+    "customModelName": "Normal",
+    "name": "Ray Of Yes",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 5.0,
+    "enchantability": 2,
+    "damageVsEntity": 15.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [],
+    "onRightClickedInAir": {
+      "name": "RayOfYesRightClickedInAir"
+    },
+    "onRightClickedOnBlock": {
+      "name": "RayOfYesRightClickedInAir"
+    },
+    "onEntityHitWith": {
+      "name": "RayOfYesMobIsHitWithTool"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:davidite"
+    },
+    "1": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "2": {
+      "item": "pile:davidite"
+    },
+    "3": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "4": {
+      "item": "pile:octahedron"
+    },
+    "5": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "6": {
+      "item": "pile:davidite"
+    },
+    "7": {
+      "item": "minecraft:log",
+      "data": 32767
+    },
+    "8": {
+      "item": "pile:davidite"
+    }
+  },
+  "result": {
+    "item": "pile:davesmysterybox",
+    "count": 4
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:mondaystonebricks"
+    },
+    "1": {
+      "item": "pile:mondaystonebricks"
+    },
+    "2": {
+      "item": "pile:mondaystonebricks"
+    },
+    "3": {
+      "item": "pile:mondaystonebricks"
+    }
+  },
+  "result": {
+    "item": "pile:smoothmondaystone",
+    "count": 4
+  }
+}

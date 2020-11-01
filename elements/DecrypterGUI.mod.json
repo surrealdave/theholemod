@@ -1,0 +1,83 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 264,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 264,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 318,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 318,
+          "y": 96
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 4,
+          "name": "Slot #4",
+          "x": 552,
+          "y": 114
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Discover",
+          "onClick": {
+            "name": "Decrypt"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Discover",
+          "x": 372,
+          "y": 114
+        }
+      }
+    ]
+  }
+}

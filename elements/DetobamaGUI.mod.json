@@ -1,0 +1,111 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 277,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Enter Coordinates of Obomba",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Enter Coordinates of Obomba",
+          "x": 264,
+          "y": 114
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 240,
+          "height": 40,
+          "name": "CoordX",
+          "x": 264,
+          "y": 168
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 240,
+          "height": 40,
+          "name": "CoordY",
+          "x": 264,
+          "y": 222
+        }
+      },
+      {
+        "type": "textfield",
+        "data": {
+          "placeholder": "",
+          "width": 240,
+          "height": 40,
+          "name": "CoordZ",
+          "x": 264,
+          "y": 276
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "X",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "X",
+          "x": 516,
+          "y": 168
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Y",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Y",
+          "x": 516,
+          "y": 222
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Z",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Z",
+          "x": 516,
+          "y": 276
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Detonate",
+          "onClick": {
+            "name": "DetonateObomba"
+          },
+          "width": 160,
+          "height": 40,
+          "name": "Detonate",
+          "x": 264,
+          "y": 330
+        }
+      }
+    ]
+  }
+}

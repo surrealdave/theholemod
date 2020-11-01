@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "malvisersgauntlet",
+    "customModelName": "Normal",
+    "name": "Malvisers Gauntlet",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "toolType": "Special",
+    "harvestLevel": 1,
+    "efficiency": 4.0,
+    "attackSpeed": 2.0,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 0,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onItemInUseTick": {
+      "name": "MalvisersGauntletToolInHandTick"
+    }
+  }
+}

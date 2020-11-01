@@ -1,0 +1,33 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:brogleplanks"
+    },
+    "3": {
+      "item": "pile:brogleplanks"
+    },
+    "4": {
+      "item": "pile:brogleplanks"
+    },
+    "6": {
+      "item": "pile:brogleplanks"
+    },
+    "7": {
+      "item": "pile:brogleplanks"
+    },
+    "8": {
+      "item": "pile:brogleplanks"
+    }
+  },
+  "result": {
+    "item": "pile:brogleplanksstairs",
+    "count": 4
+  }
+}

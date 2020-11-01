@@ -1,0 +1,78 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "BrOgle Forest",
+    "groundBlock": {
+      "value": "Blocks.GRASS"
+    },
+    "undergroundBlock": {
+      "value": "Blocks.DIRT"
+    },
+    "generateLakes": true,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 24,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "CUSTOM:BrogleLeaves"
+    },
+    "treeStem": {
+      "value": "CUSTOM:BrogleLog"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:BrogleLeaves"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:BrogleLeaves"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -5916161,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -14138328,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12753473,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 11,
+    "grassPerChunk": 10,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.19999999999999998,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.16,
+    "spawnBiome": true,
+    "biomeWeight": 2,
+    "biomeType": "WARM",
+    "biomeCategory": "JUNGLE",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [
+      "FOREST"
+    ],
+    "spawnList": [
+      {
+        "value": "CUSTOM:Goblin"
+      },
+      {
+        "value": "CUSTOM:Elf"
+      },
+      {
+        "value": "CUSTOM:AngryBrogle"
+      }
+    ]
+  }
+}

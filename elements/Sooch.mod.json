@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "sooch",
+    "customModelName": "Normal",
+    "name": "Sooch",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "stackSize": 32,
+    "nutritionalValue": 8,
+    "saturation": 10.0,
+    "eatingSpeed": 16,
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": true
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "_fv": 6,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "maize_1",
+    "customModelName": "Cross model",
+    "plantType": "growapable",
+    "growapableSpawnType": "Crop",
+    "growapableMaxHeight": 1,
+    "name": "Corn",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "hardness": 0.01,
+    "resistance": 2.0,
+    "luminance": 0.0,
+    "unbreakable": false,
+    "soundOnStep": {
+      "value": "GROUND"
+    },
+    "customDrop": {
+      "value": "CUSTOM:CornKernel"
+    },
+    "dropAmount": 1,
+    "isReplaceable": false,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "frequencyOnChunks": 20,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onTickUpdate": {
+      "name": "Corn3UpdateTick"
+    }
+  }
+}

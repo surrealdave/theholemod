@@ -1,0 +1,7 @@
+{
+  "_fv": 6,
+  "_type": "procedure",
+  "definition": {
+    "procedurexml": "<xml xmlns=\"http://www.w3.org/1999/xhtml\"><variables></variables><block type=\"event_trigger\" id=\"/w%:!OpgMNIP||?])IcG\" deletable=\"false\" x=\"40\" y=\"40\"><field name=\"trigger\">No additional trigger</field><next><block type=\"spawn_gem\" id=\":Bx,`OG(YrIr+YsFM;{E\"><value name=\"block\"><block type=\"mcitem_all\" id=\"x;6H!p9*Txg?}(]qI[4*\"><field name=\"value\">CUSTOM:WheelchairItem</field></block></value><value name=\"x\"><block type=\"coord_x\" id=\"C|`c.W*_*0~-5)e%sKXO\"></block></value><value name=\"y\"><block type=\"coord_y\" id=\"#SBh`Q+Fw}44v1roZ%1@\"></block></value><value name=\"z\"><block type=\"coord_z\" id=\";QBh?uo;ZxL,Tq]hDHb8\"></block></value></block></next></block></xml>"
+  }
+}

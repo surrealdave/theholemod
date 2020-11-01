@@ -1,0 +1,8 @@
+{
+  "parent": "pile:custom/obamachine",
+  "textures": {
+    "all": "pile:blocks/obamachine",
+    "particle": "pile:blocks/obamachine",
+    "obamachine": "pile:blocks/obamachine"
+  }
+}

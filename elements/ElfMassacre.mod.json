@@ -1,0 +1,21 @@
+{
+  "_fv": 6,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Elf Genocide",
+    "achievementDescription": "Kill 100 Elves",
+    "achievementIcon": {
+      "value": "Items.DIAMOND_SWORD"
+    },
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardXP": 0,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:ElfSlaughter"
+    },
+    "triggerxml": "<xml><block type=\"custom_trigger\" x=\"40\" y=\"80\"><next><block type=\"advancement_trigger\" deletable=\"false\"/></next></block></xml>"
+  }
+}

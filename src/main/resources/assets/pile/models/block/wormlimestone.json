@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pile:blocks/wormlimestone",
+    "up": "pile:blocks/wormlimestone",
+    "north": "pile:blocks/wormlimestone",
+    "east": "pile:blocks/wormlimestone",
+    "south": "pile:blocks/wormlimestone",
+    "west": "pile:blocks/wormlimestone",
+    "particle": "pile:blocks/wormlimestone"
+  }
+}

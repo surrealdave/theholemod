@@ -1,0 +1,59 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Syringes:",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Syringes:",
+          "x": 309,
+          "y": 128
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Output:",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Output:",
+          "x": 464,
+          "y": 128
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "name": "Slot #1",
+          "x": 480,
+          "y": 150
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 336,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

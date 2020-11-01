@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:gold_block"
+    },
+    "1": {
+      "item": "minecraft:painting"
+    },
+    "2": {
+      "item": "minecraft:gold_block"
+    },
+    "3": {
+      "item": "pile:garlic"
+    },
+    "4": {
+      "item": "pile:corncore"
+    },
+    "5": {
+      "item": "pile:garlic"
+    },
+    "6": {
+      "item": "minecraft:gold_block"
+    },
+    "7": {
+      "item": "minecraft:stone_button"
+    },
+    "8": {
+      "item": "minecraft:gold_block"
+    }
+  },
+  "result": {
+    "item": "pile:wiiphone",
+    "count": 1
+  }
+}

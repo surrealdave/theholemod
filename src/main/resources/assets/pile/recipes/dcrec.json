@@ -1,0 +1,26 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:daviditenugget"
+    },
+    "1": {
+      "item": "pile:daviditenugget"
+    },
+    "2": {
+      "item": "pile:daviditenugget"
+    },
+    "3": {
+      "item": "pile:daviditenugget"
+    }
+  },
+  "result": {
+    "item": "pile:davecoin",
+    "count": 1
+  }
+}

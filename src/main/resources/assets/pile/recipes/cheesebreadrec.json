@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:gorgonzola"
+    },
+    "1": {
+      "item": "pile:gorgonzola"
+    },
+    "2": {
+      "item": "pile:gorgonzola"
+    },
+    "3": {
+      "item": "pile:gorgonzola"
+    },
+    "4": {
+      "item": "minecraft:bread"
+    },
+    "5": {
+      "item": "pile:gorgonzola"
+    },
+    "6": {
+      "item": "pile:gorgonzola"
+    },
+    "7": {
+      "item": "pile:gorgonzola"
+    },
+    "8": {
+      "item": "pile:gorgonzola"
+    }
+  },
+  "result": {
+    "item": "pile:cheesebread",
+    "count": 1
+  }
+}

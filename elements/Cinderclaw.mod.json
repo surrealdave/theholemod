@@ -1,0 +1,26 @@
+{
+  "_fv": 6,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "cinderclaw",
+    "customModelName": "Normal",
+    "name": "Cinderclaw",
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 1,
+    "efficiency": 5.0,
+    "attackSpeed": 1.0,
+    "enchantability": 2,
+    "damageVsEntity": 9.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [],
+    "onEntityHitWith": {
+      "name": "CinderclawMobIsHitWithTool"
+    }
+  }
+}

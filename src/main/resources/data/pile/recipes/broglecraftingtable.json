@@ -1,0 +1,26 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:brogleplanks"
+    },
+    "1": {
+      "item": "pile:brogleplanks"
+    },
+    "2": {
+      "item": "pile:brogleplanks"
+    },
+    "3": {
+      "item": "pile:brogleplanks"
+    }
+  },
+  "result": {
+    "item": "minecraft:crafting_table",
+    "count": 1
+  }
+}

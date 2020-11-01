@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:pileblock"
+    },
+    "facing=north": {
+      "model": "pile:pileblock"
+    },
+    "facing=east": {
+      "model": "pile:pileblock",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:pileblock",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:pileblock",
+      "y": 270
+    }
+  }
+}

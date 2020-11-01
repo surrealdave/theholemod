@@ -1,0 +1,60 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Mutate",
+          "onClick": {
+            "name": "ObamachineMutate"
+          },
+          "width": 120,
+          "height": 40,
+          "name": "Mutate",
+          "x": 372,
+          "y": 150
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Obamachine",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Obamachine",
+          "x": 381,
+          "y": 96
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 300,
+          "y": 150
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "name": "Slot #1",
+          "x": 516,
+          "y": 150
+        }
+      }
+    ]
+  }
+}

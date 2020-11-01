@@ -1,0 +1,66 @@
+{
+  "_fv": 6,
+  "_type": "biome",
+  "definition": {
+    "name": "Yam",
+    "groundBlock": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 100,
+    "spawnVines": true,
+    "treeVines": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "treeStem": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:YamBlock"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -3368704,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -3368704,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -3368704,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 3,
+    "grassPerChunk": 10,
+    "flowersPerChunk": 10,
+    "mushroomsPerChunk": 0,
+    "bigMushroomsChunk": 0,
+    "sandPathcesPerChunk": 0,
+    "gravelPatchesPerChunk": 0,
+    "reedsPerChunk": 0,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 0,
+    "rainingPossibility": 0.5,
+    "temperature": 0.5,
+    "baseHeight": 0.1,
+    "heightVariation": 0.2,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "DESERT",
+    "biomeCategory": "MESA",
+    "parent": {
+      "value": "No parent"
+    },
+    "biomeDictionaryTypes": [],
+    "spawnList": []
+  }
+}

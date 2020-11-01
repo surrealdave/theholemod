@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "pile:cornteeth"
+    },
+    "title": {
+      "translate": "advancements.teethcorna.title"
+    },
+    "description": {
+      "translate": "advancements.teethcorna.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "teethcorna": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0
+  },
+  "parent": "pile:corncubea"
+}

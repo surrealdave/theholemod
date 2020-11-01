@@ -1,0 +1,31 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "pile:grapes"
+    },
+    {
+      "item": "pile:grapes"
+    },
+    {
+      "item": "pile:grapes"
+    },
+    {
+      "item": "pile:porcinimushroom"
+    },
+    {
+      "item": "pile:garlic"
+    },
+    {
+      "item": "pile:porcinimushroom"
+    },
+    {
+      "item": "minecraft:bowl"
+    }
+  ],
+  "result": {
+    "item": "pile:sdgrapp",
+    "count": 1
+  }
+}

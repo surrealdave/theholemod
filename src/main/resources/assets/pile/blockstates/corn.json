@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "pile:corn"
+    },
+    "age=1": {
+      "model": "pile:corn"
+    },
+    "age=2": {
+      "model": "pile:corn"
+    },
+    "age=3": {
+      "model": "pile:corn"
+    },
+    "age=4": {
+      "model": "pile:corn"
+    },
+    "age=5": {
+      "model": "pile:corn"
+    },
+    "age=6": {
+      "model": "pile:corn"
+    },
+    "age=7": {
+      "model": "pile:corn"
+    },
+    "age=8": {
+      "model": "pile:corn"
+    },
+    "age=9": {
+      "model": "pile:corn"
+    },
+    "age=10": {
+      "model": "pile:corn"
+    },
+    "age=11": {
+      "model": "pile:corn"
+    },
+    "age=12": {
+      "model": "pile:corn"
+    },
+    "age=13": {
+      "model": "pile:corn"
+    },
+    "age=14": {
+      "model": "pile:corn"
+    },
+    "age=15": {
+      "model": "pile:corn"
+    }
+  }
+}

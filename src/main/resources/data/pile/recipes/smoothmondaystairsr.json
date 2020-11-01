@@ -1,0 +1,33 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:smoothmondaystone"
+    },
+    "3": {
+      "item": "pile:smoothmondaystone"
+    },
+    "4": {
+      "item": "pile:smoothmondaystone"
+    },
+    "6": {
+      "item": "pile:smoothmondaystone"
+    },
+    "7": {
+      "item": "pile:smoothmondaystone"
+    },
+    "8": {
+      "item": "pile:smoothmondaystone"
+    }
+  },
+  "result": {
+    "item": "pile:smoothmondaystonestairs",
+    "count": 4
+  }
+}

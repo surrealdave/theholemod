@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "pile:blocks/obamium_ore",
+    "particle": "pile:blocks/obamium_ore"
+  }
+}

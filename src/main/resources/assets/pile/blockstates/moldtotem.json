@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:moldtotem"
+    },
+    "facing=north": {
+      "model": "pile:moldtotem"
+    },
+    "facing=east": {
+      "model": "pile:moldtotem",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:moldtotem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:moldtotem",
+      "y": 270
+    }
+  }
+}
