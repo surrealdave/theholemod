@@ -1,0 +1,103 @@
+{
+  "_fv": 6,
+  "_type": "block",
+  "definition": {
+    "texture": "monolithlock",
+    "textureTop": "monolithlock",
+    "textureLeft": "monolithlock",
+    "textureFront": "monolithlock",
+    "textureRight": "monolithlock",
+    "textureBack": "monolithlock",
+    "renderType": 10,
+    "customModelName": "Normal",
+    "rotationMode": 0,
+    "hasTransparency": false,
+    "transparencyType": "SOLID",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "faceShape": "SOLID",
+    "name": "Monolith",
+    "specialInfo": [],
+    "hardness": 3000.0,
+    "resistance": 3000.0,
+    "hasGravity": false,
+    "creativeTab": {
+      "value": "CUSTOM:ThePile"
+    },
+    "destroyTool": "pickaxe",
+    "affectedBySilkTouch": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 0,
+    "isBeaconBase": false,
+    "enchantPowerBonus": 0.0,
+    "plantsGrowOn": true,
+    "canProvidePower": false,
+    "lightOpacity": 0,
+    "material": {
+      "value": "IRON"
+    },
+    "tickRate": 10,
+    "tickRandomly": true,
+    "isReplaceable": false,
+    "colorOnMap": "DEFAULT",
+    "creativePickItem": {
+      "value": ""
+    },
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
+    "slipperiness": 2.0,
+    "reactionToPushing": "BLOCK",
+    "isNotColidable": false,
+    "soundOnStep": {
+      "value": "METAL"
+    },
+    "luminance": 1.0,
+    "unbreakable": false,
+    "breakHarvestLevel": 2,
+    "spawnParticles": false,
+    "particleToSpawn": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "particleSpawningShape": "Spread",
+    "particleSpawningRadious": 0.5,
+    "particleAmount": 4,
+    "particleSpawningCondition": "ALWAYS",
+    "hasInventory": false,
+    "guiBoundTo": "<NONE>",
+    "openGUIOnRightClick": false,
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "inventoryDropWhenDestroyed": true,
+    "inventoryComparatorPower": true,
+    "inventoryOutSlotIDs": [],
+    "onRightClicked": {
+      "name": "MonolithEntityCollidesInTheBlock"
+    },
+    "onDestroyedByPlayer": {
+      "name": "MonolithPlayerStartsToDestroy"
+    },
+    "onStartToDestroy": {
+      "name": "MonolithPlayerStartsToDestroy"
+    },
+    "onEntityCollides": {
+      "name": "MonolithEntityCollidesInTheBlock"
+    },
+    "onEntityWalksOn": {
+      "name": "MonolithEntityCollidesInTheBlock"
+    },
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
+    "minGenerateHeight": 0,
+    "maxGenerateHeight": 64
+  }
+}

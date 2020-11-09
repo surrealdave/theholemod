@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "crangle_tex",
+        "missing": "crangle_tex"
+      },
+      "name": "default"
+    }
+  }
+}

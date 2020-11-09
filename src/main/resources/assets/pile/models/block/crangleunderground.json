@@ -1,0 +1,9 @@
+{
+  "parent": "pile:custom/crangleblock_roots",
+  "textures": {
+    "all": "pile:blocks/crangle_tex",
+    "particle": "pile:blocks/crangle_tex",
+    "0": "pile:blocks/crangle_tex",
+    "missing": "pile:blocks/crangle_tex"
+  }
+}

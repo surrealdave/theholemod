@@ -2,10 +2,10 @@
   "_fv": 6,
   "_type": "structure",
   "definition": {
-    "structure": "mondaytemple",
+    "structure": "monolith",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First block",
-    "spawnProbability": 1000,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 100,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

@@ -20,9 +20,9 @@ import net.minecraft.block.Block;
 import java.util.Random;
 
 @ElementsThePile.ModElement.Tag
-public class StructureTempleLoad extends ElementsThePile.ModElement {
-	public StructureTempleLoad(ElementsThePile instance) {
-		super(instance, 334);
+public class StructureMonolithStructure extends ElementsThePile.ModElement {
+	public StructureMonolithStructure(ElementsThePile instance) {
+		super(instance, 448);
 	}
 
 	@Override
@@ -33,7 +33,7 @@ public class StructureTempleLoad extends ElementsThePile.ModElement {
 			dimensionCriteria = true;
 		if (!dimensionCriteria)
 			return;
-		if ((random.nextInt(1000000) + 1) <= 1000) {
+		if ((random.nextInt(1000000) + 1) <= 100) {
 			int count = random.nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = i2 + random.nextInt(16) + 8;
@@ -42,15 +42,18 @@ public class StructureTempleLoad extends ElementsThePile.ModElement {
 				if (isNetherType) {
 					boolean notpassed = true;
 					while (height > 0) {
-						if (notpassed && world.isAirBlock(new BlockPos(i, height, k)))
+						if (notpassed && (world.isAirBlock(new BlockPos(i, height, k)) || !world.getBlockState(new BlockPos(i, height, k)).getBlock()
+								.getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement()))
 							notpassed = false;
-						else if (!notpassed && !world.isAirBlock(new BlockPos(i, height, k)))
+						else if (!notpassed && !world.isAirBlock(new BlockPos(i, height, k)) && world.getBlockState(new BlockPos(i, height, k))
+								.getBlock().getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement())
 							break;
 						height--;
 					}
 				} else {
 					while (height > 0) {
-						if (!world.isAirBlock(new BlockPos(i, height, k)))
+						if (!world.isAirBlock(new BlockPos(i, height, k)) && world.getBlockState(new BlockPos(i, height, k)).getBlock()
+								.getMaterial(world.getBlockState(new BlockPos(i, height, k))).blocksMovement())
 							break;
 						height--;
 					}
@@ -59,7 +62,7 @@ public class StructureTempleLoad extends ElementsThePile.ModElement {
 				if (world.isRemote)
 					return;
 				Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-						new ResourceLocation("pile", "mondaytemple"));
+						new ResourceLocation("pile", "monolith"));
 				if (template == null)
 					return;
 				Rotation rotation = Rotation.values()[random.nextInt(3)];

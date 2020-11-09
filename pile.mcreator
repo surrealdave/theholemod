@@ -1,8 +1,8 @@
 {
   "id_map": {
-    "GUI": 7,
     "DIMENSION": 2,
-    "ENTITY": 54
+    "ENTITY": 54,
+    "GUI": 7
   },
   "mod_elements": [
     {
@@ -5346,6 +5346,222 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "CrangleLeaf",
+      "type": "food",
+      "sortid": 439,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrangleHeart",
+      "type": "item",
+      "sortid": 441,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrangleUndergroundNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrangleUnderground",
+      "type": "block",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Crangle",
+      "type": "block",
+      "sortid": 442,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrangleEmptyNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrangleEmpty",
+      "type": "block",
+      "sortid": 443,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "CrangleUndergroundOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 444,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CrangleEmptyUpdateTick",
+      "type": "procedure",
+      "sortid": 445,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonolithEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MonolithPlayerStartsToDestroy",
+      "type": "procedure",
+      "sortid": 447,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Monolith",
+      "type": "block",
+      "sortid": 446,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "MonolithStructure",
+      "type": "structure",
+      "sortid": 448,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -5454,8 +5670,8 @@
     "en_us": {
       "tile.chiseledmondaystone4.name": "Chiseled Mondaystone",
       "tile.obamachine.name": "Obamachine",
-      "item.davidite.name": "Davidite",
       "block.pile.jellyblock": "Jelly Block",
+      "item.davidite.name": "Davidite",
       "advancements.pilea.title": "Join the P I L E",
       "item.sterilemold.name": "Sterile Mold",
       "advancements.crabmoment.descr": "Crab",
@@ -5471,11 +5687,11 @@
       "block.pile.gorgonzolaripe": "Ripe Gorgonzola",
       "item.cinderclaw.name": "Cinderclaw",
       "item.shellcasing.name": "Shell Casing",
-      "tile.brogleplanksfence.name": "BrOgle Fence",
       "item.minecraft.lingering_potion.effect.goblineffect": "Lingering Goblin",
+      "tile.brogleplanksfence.name": "BrOgle Fence",
       "block.pile.truffleplant": "Truffle",
-      "block.pile.grinder": "Grinder",
       "item.pile.thebiblicaldrop": "Music Disc",
+      "block.pile.grinder": "Grinder",
       "item.gorgonzola.name": "Gorgonzola",
       "item.pile.baseballcapratlegs": "Baseball Cap Rat Leggings",
       "item.pile.soochpod": "Sooch Pod",
@@ -5503,26 +5719,26 @@
       "item.chargedoctahedronfrost.name": "Charged Octahedron",
       "entity.elf.name": "Elf",
       "item.baseballcapratlegs.name": "Baseball Cap Rat Leggings",
-      "tile.gorgonzolamouldy.name": "Mouldy Gorgonzola",
-      "tile.pilehalf.name": "Pile",
       "block.pile.moldtotem": "Mold Totem",
+      "tile.pilehalf.name": "Pile",
+      "tile.gorgonzolamouldy.name": "Mouldy Gorgonzola",
       "tile.yamblock.name": "Yam",
       "item.pile.livingmoyai": "Moyai Spawn Egg",
       "item.pile.chargedoctahedronfrost": "Charged Octahedron",
       "tile.psygrass.name": "Psygrass",
-      "tipped_arrow.effect.goblineffect": "Arrow of Goblin",
       "block.pile.chiseledmondaystone1": "Chiseled Mondaystone",
+      "tipped_arrow.effect.goblineffect": "Arrow of Goblin",
       "block.pile.chiseledmondaystone2": "Chiseled Mondaystone",
       "block.pile.chiseledmondaystone3": "Chiseled Mondaystone",
       "block.pile.chiseledmondaystone4": "Chiseled Mondaystone",
       "advancements.disintegration.title": "Disintegrate Bean",
       "advancements.elfhomicide.descr": "Kill 10 Elves",
-      "entity.cockroach.name": "Cockroach",
-      "item.baseballcapratboots.name": "Baseball Cap Rat Boots",
       "item.pile.chargedoctahedronprism": "Charged Octahedron",
+      "item.baseballcapratboots.name": "Baseball Cap Rat Boots",
+      "entity.cockroach.name": "Cockroach",
       "tile.isopile.name": "Pile",
-      "item.pile.goblinjuice": "Goblin Drug",
       "block.pile.carvedwormlimestone4": "Carved Worm Limestone",
+      "item.pile.goblinjuice": "Goblin Drug",
       "block.pile.carvedwormlimestone3": "Carved Worm Limestone",
       "item.pile.fungusdealer": "Fungus Dealer Spawn Egg",
       "block.pile.carvedwormlimestone2": "Carved Worm Limestone",
@@ -5531,8 +5747,8 @@
       "item.pile.grapes": "Grapes",
       "block.pile.brogleplanks": "Brogle Planks",
       "tile.moyai.name": "Moyai",
-      "tile.grinder.name": "Grinder",
       "item.pile.garlic": "Garlic",
+      "tile.grinder.name": "Grinder",
       "advancements.goblina.title": "Your Brain: Run by Goblin",
       "item.calibratedreceiver.name": "Calibrated Receiver",
       "item.pile.theylackthemoai": "Music Disc",
@@ -5542,14 +5758,14 @@
       "item.pile.advancedreceiver": "Advanced Receiver",
       "block.pile.psystone": "Psystone",
       "item.pile.onehundredandthreetonweight": "One-Hundred-and-Three Ton Weight",
-      "entity.isopod.name": "Isopod",
       "item.chargedoctahedronenergy.name": "Charged Octahedron",
+      "entity.isopod.name": "Isopod",
       "advancements.grog.descr": "You found some",
       "block.pile.diebot": "Diebot",
       "entity.pile.corngolem": "Corn Golem",
       "entity.pile.livingmoyai": "Moyai",
-      "entity.rat.name": "Rat",
       "item.pile.disintegrationwand": "Disintegration Wand",
+      "entity.rat.name": "Rat",
       "biome.pile.jelly": "Jelly Dreamland",
       "item.pile.cockroach": "Cockroach Spawn Egg",
       "advancements.teethcorna.descr": "Make some Corn on the Cob but instead of Corn it\u0027s Teeth",
@@ -5624,6 +5840,7 @@
       "tile.octahedronore.name": "Octahedron Ore",
       "tile.chiseledmondaystone1.name": "Chiseled Mondaystone",
       "item.revolbo1.name": ".308 Revolbo",
+      "tile.crangle.name": "Crangle",
       "block.pile.brogleplant": "BrOgLE",
       "entity.pile.monday": "Monday",
       "item.metalocrab.name": "Music Disc",
@@ -5738,6 +5955,7 @@
       "item.pile.unstableobamium": "Unstable Obamium",
       "item.pile.cookedbrogle": "Cooked BrOgLE",
       "block.pile.obamachine": "Obamachine",
+      "tile.crangleempty.name": "Crangle",
       "item.pile.garbagemistress": "Music Disc",
       "item.wiiphone.name": "wii phone",
       "item.cornonthecob.name": "Corn on the Cob",
@@ -5822,6 +6040,7 @@
       "item.dreamfruit.name": "Dream Fruit",
       "entity.pile.fungusdealer": "Fungus Dealer",
       "item.ratskin.name": "Rat Skin",
+      "item.crangleheart.name": "Crangle Heart of Darkness, Despair and Hatred",
       "item.pile.dreamcatcher": "Dream Catcher",
       "item.fallenmeteoritem.name": "Fallen Meteor",
       "block.pile.wormlimestone": "Worm Limestone",
@@ -5893,6 +6112,7 @@
       "advancements.elfmassacre.descr": "Kill 100 Elves",
       "item.broglepie.name": "BrOgle Pie",
       "item.endanddeand.name": "Music Disc",
+      "item.crangleleaf.name": "Crangle Leaf",
       "entity.goblin.name": "Goblin",
       "advancements.teethmacea.title": "Crunchy Weapon",
       "entity.pile.obama": "Obama",
@@ -5902,6 +6122,7 @@
       "block.pile.templeloader": "Temple Loader",
       "item.pile.garlicking": "Garlic King Spawn Egg",
       "advancements.garlicbreada.descr": "Garlic Bread.",
+      "tile.crangleunderground.name": "Crangle",
       "lingering_potion.effect.psychoactivity": "Lingering Psychoactivity",
       "item.sdgrapp.name": "Semi-Decomposed Grape Reduction atop Psychoactive Porcini",
       "block.pile.yamblock": "Yam",
@@ -5920,6 +6141,7 @@
       "item.pile.cinderclaw": "Cinderclaw",
       "item.minecraft.lingering_potion.effect.psychoactivity": "Lingering Psychoactivity",
       "splash_potion.effect.goblineffect": "Splash Goblin",
+      "tile.monolith.name": "Monolith",
       "tile.brogleplanksslab.name": "BrOgle Slab",
       "tile.daviditeore.name": "Davidite Ore",
       "advancements.crabmeata.title": "You Monster",
