@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pile:coldgoldingot"
+    },
+    "1": {
+      "item": "pile:coldgoldingot"
+    },
+    "2": {
+      "item": "pile:coldgoldingot"
+    },
+    "3": {
+      "item": "pile:coldgoldingot"
+    },
+    "4": {
+      "item": "pile:coldgoldingot"
+    },
+    "5": {
+      "item": "pile:coldgoldingot"
+    },
+    "6": {
+      "item": "pile:coldgoldingot"
+    },
+    "7": {
+      "item": "pile:coldgoldingot"
+    },
+    "8": {
+      "item": "pile:coldgoldingot"
+    }
+  },
+  "result": {
+    "item": "pile:coldgoldblock",
+    "count": 1
+  }
+}

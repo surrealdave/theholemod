@@ -91,6 +91,46 @@ public class ProcedureToothsayerAltarUpdateTick extends ElementsThePile.ModEleme
 					_tileEntity.getTileData().setDouble("altarPower", 2);
 				world.notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
+		} else if (((((((world.getBlockState(new BlockPos((int) (x + 2), (int) y, (int) (z + 2)))).getBlock() == BlockBoneDust.block.getDefaultState()
+				.getBlock())
+				&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) y, (int) (z + 2)))).getBlock() == BlockBoneDust.block.getDefaultState()
+						.getBlock()))
+				&& (((world.getBlockState(new BlockPos((int) (x + 2), (int) y, (int) (z - 2)))).getBlock() == BlockBoneDust.block.getDefaultState()
+						.getBlock())
+						&& ((world.getBlockState(new BlockPos((int) (x - 2), (int) y, (int) (z - 2)))).getBlock() == BlockBoneDust.block
+								.getDefaultState().getBlock())))
+				&& ((((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) (z + 3)))).getBlock() == BlockBoneDust.block.getDefaultState()
+						.getBlock())
+						&& ((world.getBlockState(new BlockPos((int) (x + 0), (int) y, (int) (z + 3)))).getBlock() == BlockBoneDust.block
+								.getDefaultState().getBlock()))
+						&& (((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) (z + 3)))).getBlock() == BlockBoneDust.block
+								.getDefaultState().getBlock())
+								&& ((world.getBlockState(new BlockPos((int) (x + 1), (int) y, (int) (z - 3)))).getBlock() == BlockBoneDust.block
+										.getDefaultState().getBlock()))))
+				&& (((((world.getBlockState(new BlockPos((int) (x + 0), (int) y, (int) (z - 3)))).getBlock() == BlockBoneDust.block.getDefaultState()
+						.getBlock())
+						&& ((world.getBlockState(new BlockPos((int) (x - 1), (int) y, (int) (z - 3)))).getBlock() == BlockBoneDust.block
+								.getDefaultState().getBlock()))
+						&& (((world.getBlockState(new BlockPos((int) (x - 3), (int) y, (int) (z + 1)))).getBlock() == BlockBoneDust.block
+								.getDefaultState().getBlock())
+								&& ((world.getBlockState(new BlockPos((int) (x - 3), (int) y, (int) (z + 0)))).getBlock() == BlockBoneDust.block
+										.getDefaultState().getBlock())))
+						&& ((((world.getBlockState(new BlockPos((int) (x - 3), (int) y, (int) (z - 1)))).getBlock() == BlockBoneDust.block
+								.getDefaultState().getBlock())
+								&& ((world.getBlockState(new BlockPos((int) (x + 3), (int) y, (int) (z + 1)))).getBlock() == BlockBoneDust.block
+										.getDefaultState().getBlock()))
+								&& (((world.getBlockState(new BlockPos((int) (x + 3), (int) y, (int) (z + 0)))).getBlock() == BlockBoneDust.block
+										.getDefaultState().getBlock())
+										&& ((world.getBlockState(new BlockPos((int) (x + 3), (int) y, (int) (z - 1))))
+												.getBlock() == BlockBoneDust.block.getDefaultState().getBlock())))))) {
+			if (!world.isRemote) {
+				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
+				TileEntity _tileEntity = world.getTileEntity(_bp);
+				IBlockState _bs = world.getBlockState(_bp);
+				if (_tileEntity != null)
+					_tileEntity.getTileData().setDouble("altarPower", 3);
+				world.notifyBlockUpdate(_bp, _bs, _bs, 3);
+			}
 		} else {
 			if (!world.isRemote) {
 				BlockPos _bp = new BlockPos((int) x, (int) y, (int) z);
