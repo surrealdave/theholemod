@@ -1,0 +1,182 @@
+{
+  "_fv": 6,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": true,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "name": "Slot #0",
+          "x": 372,
+          "y": 106
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "name": "Slot #1",
+          "x": 372,
+          "y": 142
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "name": "Slot #2",
+          "x": 372,
+          "y": 178
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 3,
+          "name": "Slot #3",
+          "x": 408,
+          "y": 178
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 4,
+          "name": "Slot #4",
+          "x": 445,
+          "y": 178
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 5,
+          "name": "Slot #5",
+          "x": 444,
+          "y": 142
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 6,
+          "name": "Slot #6",
+          "x": 444,
+          "y": 106
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 7,
+          "name": "Slot #7",
+          "x": 408,
+          "y": 106
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "CUSTOM:BoneOffering"
+          },
+          "id": 8,
+          "name": "Slot #8",
+          "x": 300,
+          "y": 107
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 9,
+          "name": "Slot #9",
+          "x": 516,
+          "y": 107
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Toothsayer's Altar",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Toothsayer's Altar",
+          "x": 336,
+          "y": 82
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "<BNBT:integer:altarPower>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<BNBT:integer:altarPower>",
+          "x": 300,
+          "y": 197
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Cast",
+          "onClick": {
+            "name": "ToothsayerCastSpell"
+          },
+          "width": 80,
+          "height": 40,
+          "name": "Cast",
+          "x": 494,
+          "y": 179
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Power:",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "Power:",
+          "x": 300,
+          "y": 179
+        }
+      }
+    ]
+  }
+}

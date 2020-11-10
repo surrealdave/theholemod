@@ -1,8 +1,8 @@
 {
   "id_map": {
+    "GUI": 8,
     "DIMENSION": 2,
-    "ENTITY": 54,
-    "GUI": 7
+    "ENTITY": 54
   },
   "mod_elements": [
     {
@@ -5562,6 +5562,160 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ToothsayerAltar",
+      "type": "block",
+      "sortid": 449,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoneDust",
+      "type": "block",
+      "sortid": 450,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ToothsayerAltarGUI",
+      "type": "gui",
+      "sortid": 451,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "0": 8
+      }
+    },
+    {
+      "name": "ToothsayerAltarUpdateTick",
+      "type": "procedure",
+      "sortid": 452,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoneOffering",
+      "type": "item",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoneDustEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ColdGoldR",
+      "type": "recipe",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ToothsayerAltarR",
+      "type": "recipe",
+      "sortid": 456,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoneDustR",
+      "type": "recipe",
+      "sortid": 457,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "BoneOfferingR",
+      "type": "recipe",
+      "sortid": 458,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ToothsayerCastSpell",
+      "type": "procedure",
+      "sortid": 459,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -5612,6 +5766,12 @@
       "type": "logic",
       "scope": "map",
       "value": "true"
+    },
+    {
+      "name": "ToothsayerLevel",
+      "type": "number",
+      "scope": "global",
+      "value": "0"
     }
   ],
   "sound_elements": [
@@ -5670,8 +5830,8 @@
     "en_us": {
       "tile.chiseledmondaystone4.name": "Chiseled Mondaystone",
       "tile.obamachine.name": "Obamachine",
-      "block.pile.jellyblock": "Jelly Block",
       "item.davidite.name": "Davidite",
+      "block.pile.jellyblock": "Jelly Block",
       "advancements.pilea.title": "Join the P I L E",
       "item.sterilemold.name": "Sterile Mold",
       "advancements.crabmoment.descr": "Crab",
@@ -5686,12 +5846,13 @@
       "item.chargedoctahedronflame.name": "Charged Octahedron",
       "block.pile.gorgonzolaripe": "Ripe Gorgonzola",
       "item.cinderclaw.name": "Cinderclaw",
+      "tile.bonedust.name": "Bone Dust",
       "item.shellcasing.name": "Shell Casing",
-      "item.minecraft.lingering_potion.effect.goblineffect": "Lingering Goblin",
       "tile.brogleplanksfence.name": "BrOgle Fence",
+      "item.minecraft.lingering_potion.effect.goblineffect": "Lingering Goblin",
       "block.pile.truffleplant": "Truffle",
-      "item.pile.thebiblicaldrop": "Music Disc",
       "block.pile.grinder": "Grinder",
+      "item.pile.thebiblicaldrop": "Music Disc",
       "item.gorgonzola.name": "Gorgonzola",
       "item.pile.baseballcapratlegs": "Baseball Cap Rat Leggings",
       "item.pile.soochpod": "Sooch Pod",
@@ -5719,26 +5880,26 @@
       "item.chargedoctahedronfrost.name": "Charged Octahedron",
       "entity.elf.name": "Elf",
       "item.baseballcapratlegs.name": "Baseball Cap Rat Leggings",
-      "block.pile.moldtotem": "Mold Totem",
-      "tile.pilehalf.name": "Pile",
       "tile.gorgonzolamouldy.name": "Mouldy Gorgonzola",
+      "tile.pilehalf.name": "Pile",
+      "block.pile.moldtotem": "Mold Totem",
       "tile.yamblock.name": "Yam",
       "item.pile.livingmoyai": "Moyai Spawn Egg",
       "item.pile.chargedoctahedronfrost": "Charged Octahedron",
       "tile.psygrass.name": "Psygrass",
-      "block.pile.chiseledmondaystone1": "Chiseled Mondaystone",
       "tipped_arrow.effect.goblineffect": "Arrow of Goblin",
+      "block.pile.chiseledmondaystone1": "Chiseled Mondaystone",
       "block.pile.chiseledmondaystone2": "Chiseled Mondaystone",
       "block.pile.chiseledmondaystone3": "Chiseled Mondaystone",
       "block.pile.chiseledmondaystone4": "Chiseled Mondaystone",
       "advancements.disintegration.title": "Disintegrate Bean",
       "advancements.elfhomicide.descr": "Kill 10 Elves",
-      "item.pile.chargedoctahedronprism": "Charged Octahedron",
-      "item.baseballcapratboots.name": "Baseball Cap Rat Boots",
       "entity.cockroach.name": "Cockroach",
+      "item.baseballcapratboots.name": "Baseball Cap Rat Boots",
+      "item.pile.chargedoctahedronprism": "Charged Octahedron",
       "tile.isopile.name": "Pile",
-      "block.pile.carvedwormlimestone4": "Carved Worm Limestone",
       "item.pile.goblinjuice": "Goblin Drug",
+      "block.pile.carvedwormlimestone4": "Carved Worm Limestone",
       "block.pile.carvedwormlimestone3": "Carved Worm Limestone",
       "item.pile.fungusdealer": "Fungus Dealer Spawn Egg",
       "block.pile.carvedwormlimestone2": "Carved Worm Limestone",
@@ -5747,8 +5908,8 @@
       "item.pile.grapes": "Grapes",
       "block.pile.brogleplanks": "Brogle Planks",
       "tile.moyai.name": "Moyai",
-      "item.pile.garlic": "Garlic",
       "tile.grinder.name": "Grinder",
+      "item.pile.garlic": "Garlic",
       "advancements.goblina.title": "Your Brain: Run by Goblin",
       "item.calibratedreceiver.name": "Calibrated Receiver",
       "item.pile.theylackthemoai": "Music Disc",
@@ -5758,14 +5919,14 @@
       "item.pile.advancedreceiver": "Advanced Receiver",
       "block.pile.psystone": "Psystone",
       "item.pile.onehundredandthreetonweight": "One-Hundred-and-Three Ton Weight",
-      "item.chargedoctahedronenergy.name": "Charged Octahedron",
       "entity.isopod.name": "Isopod",
+      "item.chargedoctahedronenergy.name": "Charged Octahedron",
       "advancements.grog.descr": "You found some",
       "block.pile.diebot": "Diebot",
       "entity.pile.corngolem": "Corn Golem",
       "entity.pile.livingmoyai": "Moyai",
-      "item.pile.disintegrationwand": "Disintegration Wand",
       "entity.rat.name": "Rat",
+      "item.pile.disintegrationwand": "Disintegration Wand",
       "biome.pile.jelly": "Jelly Dreamland",
       "item.pile.cockroach": "Cockroach Spawn Egg",
       "advancements.teethcorna.descr": "Make some Corn on the Cob but instead of Corn it\u0027s Teeth",
@@ -6044,6 +6205,7 @@
       "item.pile.dreamcatcher": "Dream Catcher",
       "item.fallenmeteoritem.name": "Fallen Meteor",
       "block.pile.wormlimestone": "Worm Limestone",
+      "item.boneoffering.name": "Bone Offering",
       "item.octahedronalegs.name": "Octahedron Leggings",
       "item.rawdongfish.name": "Raw Dongfish",
       "tile.wormlimestonestairs.name": "Worm Limestone Stairs",
@@ -6161,6 +6323,7 @@
       "item.minecraft.splash_potion.effect.psychoactivity": "Splash Psychoactivity",
       "advancements.teethmacea.descr": "Craft a Mace of Teeth.",
       "item.octahedron.name": "Octahedron",
+      "tile.toothsayeraltar.name": "Toothsayer\u0027s Altar",
       "item.pile.obamium": "Obamium",
       "biome.pile.brogleforest": "BrOgle Forest",
       "item.crabitem.name": "Crab",
@@ -6194,7 +6357,7 @@
   "workspaceSettings": {
     "modid": "pile",
     "modName": "The Pile",
-    "version": "Monday - It\u0027s Coming (1.14.4)",
+    "version": "Monday - It\u0027s Coming (1.12.2)",
     "description": "join the   p i l e",
     "author": "surreal dave",
     "websiteURL": "https://www.surrealdave.com",
@@ -6206,7 +6369,6 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "1.12.2",
-    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "pile",
     "lockBaseModFiles": false
   },

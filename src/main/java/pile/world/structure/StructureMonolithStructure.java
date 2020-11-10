@@ -67,7 +67,7 @@ public class StructureMonolithStructure extends ElementsThePile.ModElement {
 					return;
 				Rotation rotation = Rotation.values()[random.nextInt(3)];
 				Mirror mirror = Mirror.values()[random.nextInt(2)];
-				BlockPos spawnTo = new BlockPos(i, j + 0, k);
+				BlockPos spawnTo = new BlockPos(i, j + -3, k);
 				IBlockState iblockstate = world.getBlockState(spawnTo);
 				world.notifyBlockUpdate(spawnTo, iblockstate, iblockstate, 3);
 				template.addBlocksToWorldChunk(world, spawnTo, new PlacementSettings().setRotation(rotation).setMirror(mirror)

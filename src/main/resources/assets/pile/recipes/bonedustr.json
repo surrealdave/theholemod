@@ -1,0 +1,17 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    {
+      "item": "pile:blueteeth"
+    }
+  ],
+  "result": {
+    "item": "pile:bonedust",
+    "count": 1
+  }
+}

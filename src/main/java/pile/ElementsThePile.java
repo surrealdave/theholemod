@@ -6,6 +6,7 @@
  */
 package pile;
 
+import pile.gui.GuiToothsayerAltarGUI;
 import pile.gui.GuiObamachineGUI;
 import pile.gui.GuiGrinderGUI;
 import pile.gui.GuiDiebotGUI;
@@ -161,6 +162,8 @@ public class ElementsThePile implements IFuelHandler, IWorldGenerator {
 				return new GuiDecrypterGUI.GuiContainerMod(world, x, y, z, player);
 			if (id == GuiDetobamaGUI.GUIID)
 				return new GuiDetobamaGUI.GuiContainerMod(world, x, y, z, player);
+			if (id == GuiToothsayerAltarGUI.GUIID)
+				return new GuiToothsayerAltarGUI.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
@@ -178,6 +181,8 @@ public class ElementsThePile implements IFuelHandler, IWorldGenerator {
 				return new GuiDecrypterGUI.GuiWindow(world, x, y, z, player);
 			if (id == GuiDetobamaGUI.GUIID)
 				return new GuiDetobamaGUI.GuiWindow(world, x, y, z, player);
+			if (id == GuiToothsayerAltarGUI.GUIID)
+				return new GuiToothsayerAltarGUI.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}

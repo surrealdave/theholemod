@@ -45,7 +45,7 @@ import java.util.function.Supplier;
 @Mod(modid = ThePile.MODID, version = ThePile.VERSION)
 public class ThePile {
 	public static final String MODID = "pile";
-	public static final String VERSION = "Monday - It's Coming (1.14.4)";
+	public static final String VERSION = "Monday - It's Coming (1.12.2)";
 	public static final SimpleNetworkWrapper PACKET_HANDLER = NetworkRegistry.INSTANCE.newSimpleChannel("pile:a");
 	@SidedProxy(clientSide = "pile.ClientProxyThePile", serverSide = "pile.ServerProxyThePile")
 	public static IProxyThePile proxy;

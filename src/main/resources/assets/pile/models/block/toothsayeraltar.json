@@ -1,0 +1,9 @@
+{
+  "parent": "pile:custom/toothsayeraltar",
+  "textures": {
+    "all": "pile:blocks/toothayerltar",
+    "particle": "pile:blocks/toothayerltar",
+    "0": "pile:blocks/toothayerltar",
+    "1": "pile:blocks/toothayeross"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "normal": {
+      "model": "pile:toothsayeraltar"
+    },
+    "facing=north": {
+      "model": "pile:toothsayeraltar"
+    },
+    "facing=east": {
+      "model": "pile:toothsayeraltar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "pile:toothsayeraltar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "pile:toothsayeraltar",
+      "y": 270
+    }
+  }
+}

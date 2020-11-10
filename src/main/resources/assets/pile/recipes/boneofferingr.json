@@ -1,0 +1,46 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:bone"
+    },
+    "1": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "2": {
+      "item": "minecraft:bone"
+    },
+    "3": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "4": {
+      "item": "pile:blueteeth"
+    },
+    "5": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "6": {
+      "item": "minecraft:bone"
+    },
+    "7": {
+      "item": "minecraft:dye",
+      "data": 15
+    },
+    "8": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "pile:boneoffering",
+    "count": 4
+  }
+}

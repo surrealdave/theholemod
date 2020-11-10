@@ -1,0 +1,45 @@
+{
+  "_fv": 6,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.TORCH"
+      },
+      {
+        "value": "Items.WRITABLE_BOOK"
+      },
+      {
+        "value": "Blocks.TORCH"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "CUSTOM:ColdGoldBlock"
+      },
+      {
+        "value": "Blocks.VINE"
+      },
+      {
+        "value": "CUSTOM:MondaystoneBricks"
+      },
+      {
+        "value": "CUSTOM:MondaystoneBricks"
+      },
+      {
+        "value": "CUSTOM:MondaystoneBricks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ToothsayerAltar"
+    },
+    "name": "toothsayeraltarr",
+    "namespace": "mod"
+  }
+}

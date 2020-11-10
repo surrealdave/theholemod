@@ -12,6 +12,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.client.Minecraft;
 
 public class ThePileVariables {
+	public static double ToothsayerLevel = 0;
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "pile_mapvars";
 		public double DieCount = 1;

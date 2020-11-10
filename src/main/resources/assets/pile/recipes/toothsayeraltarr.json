@@ -1,0 +1,42 @@
+{
+  "group": "pile",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:torch"
+    },
+    "1": {
+      "item": "minecraft:writable_book"
+    },
+    "2": {
+      "item": "minecraft:torch"
+    },
+    "3": {
+      "item": "minecraft:vine"
+    },
+    "4": {
+      "item": "pile:coldgoldblock"
+    },
+    "5": {
+      "item": "minecraft:vine"
+    },
+    "6": {
+      "item": "pile:mondaystonebricks"
+    },
+    "7": {
+      "item": "pile:mondaystonebricks"
+    },
+    "8": {
+      "item": "pile:mondaystonebricks"
+    }
+  },
+  "result": {
+    "item": "pile:toothsayeraltar",
+    "count": 1
+  }
+}

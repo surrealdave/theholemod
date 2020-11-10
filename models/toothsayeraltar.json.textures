@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "toothayerltar",
+        "1": "toothayeross"
+      },
+      "name": "default"
+    }
+  }
+}
